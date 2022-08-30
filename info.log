@@ -1,0 +1,347 @@
+2022-08-30 11:54:40,365 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 11:54:40,368 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 11:54:41,655 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1h&limit=1000 HTTP/1.1" 200 None
+2022-08-30 11:58:04,419 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 11:58:28,182 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 11:59:27,432 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:03:54,304 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:27:39,560 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:27:39,564 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:27:40,621 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661873259561&signature=352ed761e40979ea4d71c1ca8289577a9521d5154877d055a778208fae298b11 HTTP/1.1" 400 88
+2022-08-30 12:27:40,626 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:32:36,967 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:32:36,970 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:32:38,002 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661873556967&signature=1b643d887b31ec55496246b3b0b192145be0a68c860e99e8e022f98ffbc423d5 HTTP/1.1" 400 88
+2022-08-30 12:32:38,004 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:33:09,086 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:33:09,089 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:33:10,081 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661873589086&signature=12dcf4d7315ab990c73a888c39454c9f9c826ae143ea8ef067f5daf3ced1d722 HTTP/1.1" 400 88
+2022-08-30 12:33:10,086 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:39:32,830 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:39:32,833 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:39:33,372 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661873972831&signature=616fbbee1355943464943223d090fb8a68edf5b87372ef5a8ea9dc1976a2d8e0 HTTP/1.1" 400 88
+2022-08-30 12:39:33,374 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:40:38,533 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:40:38,537 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:40:39,063 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=166187403853&signature=80bc94c3df144cceea05500c7e518bd62b4cbde335b86c61ed03b48a4a9e09c0 HTTP/1.1" 400 79
+2022-08-30 12:40:39,065 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (Erro de código 400)
+2022-08-30 12:42:47,340 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:42:47,343 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:42:48,417 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?updateTime=1661874167340&signature=b0eedd19a65ba98fd4ba17649b9bcf51e1326ec9ed6ecf5b87a1c0ca8ac4a913 HTTP/1.1" 400 98
+2022-08-30 12:42:48,422 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (Erro de código 400)
+2022-08-30 12:43:05,291 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:43:05,294 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:43:06,300 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661874185292&signature=37ac851e454b5ba76a8482eee576f01accade5e7d6c22077579d5344e5ddda1f HTTP/1.1" 400 88
+2022-08-30 12:43:06,305 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:45:19,385 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:45:19,389 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:45:19,899 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661874319386&signature=82df30be4c268bc37d656c0d590c4cb6b802e5857f5767670598f16180276924 HTTP/1.1" 400 88
+2022-08-30 12:45:19,900 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:50:15,225 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:50:15,228 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:50:16,324 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661874615225&signature=0e12b38a0108ac5e2253f86c930992625bb958ff4ceb8ad3443d3b42e1ad5569 HTTP/1.1" 400 88
+2022-08-30 12:50:16,328 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:50:32,797 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:50:32,801 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:50:33,839 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account%20?timestamp=1661874632797&signature=a190a4f6fa43283b185c3c2dc1653a80eeba1997e0f1797c08252cb754a5eb21 HTTP/1.1" 404 None
+2022-08-30 12:50:39,248 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:50:39,251 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:50:40,309 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661874639248&signature=7252cede632a04511a2e47e37b4bff80c6096c7407af4194f9f7b8346cd4f3cd HTTP/1.1" 400 88
+2022-08-30 12:50:40,310 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 12:51:11,160 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:51:11,165 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:51:12,162 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1625474304765&signature=3674b7dd0a4fd00131a25758c5831b1aa817d4bbec4d93bb66f1fc2dff7102c7 HTTP/1.1" 400 79
+2022-08-30 12:51:12,164 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (Erro de código 400)
+2022-08-30 12:55:51,448 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:56:02,540 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:56:02,543 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:56:03,652 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=2022-08-30&signature=9a5b6332cf4815ecb204f61d374a7f8e7d135e50f5cca8f73f4bcb62241a49e8 HTTP/1.1" 400 98
+2022-08-30 12:56:03,653 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (Erro de código 400)
+2022-08-30 12:56:10,388 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:57:08,039 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:57:08,042 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:57:09,069 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=2022-08-30+12%3A57%3A08.039279&signature=4fbbcd79892b4e77f80a7638d0e58a065b6851fa7656eefe1092ca81180ad948 HTTP/1.1" 400 98
+2022-08-30 12:57:09,070 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (Erro de código 400)
+2022-08-30 12:57:22,333 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:57:22,337 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:57:23,314 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=2022-08-30+12%3A57%3A22.334593&signature=c58a87f461e56958f4367b05c4c8327b1d4dcf9d4973a3e3af3cb5ee2636b7f9 HTTP/1.1" 400 98
+2022-08-30 12:57:23,320 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (Erro de código 400)
+2022-08-30 12:57:46,429 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:02,164 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:09,659 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:10,816 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:13,047 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:24,066 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 12:58:24,070 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 12:58:25,095 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=2022-08-30+12%3A58%3A24.067011&signature=167822afdb83e0671e39dbbbe254b933a4784289aa493c5172e6184f570d04f5 HTTP/1.1" 400 98
+2022-08-30 12:58:25,100 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (Erro de código 400)
+2022-08-30 13:05:15,657 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:05:15,660 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 13:05:16,715 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661875515&signature=e64c0abcb15081edd97017dfcbdef00beafedf49ea83688bcf15695346e37cfe HTTP/1.1" 400 79
+2022-08-30 13:05:16,721 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (Erro de código 400)
+2022-08-30 13:05:33,008 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:05:47,915 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:06:19,967 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:06:19,971 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 13:06:20,491 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661875579968&signature=9de02888136a19dea1f1d770996880a339cf8cf7078ab38cbfaa9f238d373536 HTTP/1.1" 400 88
+2022-08-30 13:06:20,492 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 13:09:26,078 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:09:26,082 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 13:09:27,147 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661875766079&signature=bcaf5bbcc6a95d318e141abce9bcbf688cdc600bfb30b2aad3c4d14e7234cbb4 HTTP/1.1" 400 88
+2022-08-30 13:09:27,148 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 13:10:48,451 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 13:10:48,454 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 13:10:49,476 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661875848451&signature=86e005de76aeeed13dc917e0f2f1896f6da28a20e88319eb9ca85bc11220ac54 HTTP/1.1" 400 88
+2022-08-30 13:10:49,478 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 14:10:18,337 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:10:18,341 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:10:19,402 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661879418000&signature=1655d0de429d46873714553d555852cd974c19b72ddd39737bc8b3409e96b284 HTTP/1.1" 400 88
+2022-08-30 14:10:19,407 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 14:10:49,595 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:10:49,600 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:10:50,069 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1661879437312&signature=70d6ad733bccb906a6f57ef338a9e4ea53b41b924b2e5910301889238fc7fa9f HTTP/1.1" 400 79
+2022-08-30 14:10:50,074 ERROR :: Erro ao fazer GET pedido para /fapi/v2/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (Erro de código 400)
+2022-08-30 14:11:09,914 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:11:09,918 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:11:10,458 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661879437312&signature=70d6ad733bccb906a6f57ef338a9e4ea53b41b924b2e5910301889238fc7fa9f HTTP/1.1" 400 79
+2022-08-30 14:11:10,462 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (Erro de código 400)
+2022-08-30 14:11:24,183 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:11:24,186 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:11:25,361 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661879484000&signature=e4c3bb4a7d8c972f43067c7b01b2160d4fb96fcac9f99244250bb3448dbd17e3 HTTP/1.1" 400 88
+2022-08-30 14:11:25,362 ERROR :: Erro ao fazer GET pedido para /fapi/v1/account: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 14:17:12,066 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:17:12,069 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:17:12,466 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:17:12,469 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:17:13,485 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661879829543&signature=96b46b2e3e0938af64da0b2576cf41028a44f2d513ba0a24ada5b2c8dac33829 HTTP/1.1" 200 None
+2022-08-30 14:19:09,827 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:19:09,831 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:19:10,245 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:19:10,254 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:19:11,263 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661879947316&signature=842db39a1802a842a1462facd78f84b9f72d72067cbe8d3d71912837db2c69dc HTTP/1.1" 200 None
+2022-08-30 14:20:25,308 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:20:25,311 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:20:25,830 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:20:25,833 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:20:26,866 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661880022895&signature=1262c9d971421cf48f0e34801c7a3a94a79bb886d4523eb83566b96ad05794e8 HTTP/1.1" 200 None
+2022-08-30 14:40:13,256 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:40:13,263 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:40:13,725 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:40:13,737 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:40:14,824 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661881210718&signature=be4387e489dcb83a4906c949a14606fbf82bd097b9fb3df7a320e61979eda311 HTTP/1.1" 200 None
+2022-08-30 14:40:14,845 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:40:15,248 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:40:15,259 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:40:16,202 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSD&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1661881212243&signature=68eedcd637221e7abe723da53a87d474cbe8690c4d92358d1e2e58c8a242641c HTTP/1.1" 400 38
+2022-08-30 14:40:16,208 ERROR :: Erro ao fazer POST pedido para /fapi/v1/order: {'code': -1121, 'msg': 'Invalid symbol.'} (Erro de código 400)
+2022-08-30 14:40:16,214 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:40:16,601 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:40:16,612 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:40:17,593 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1661881213594&signature=f30a141428d80f6360f3a25a47d130849c67bcbd9a906b8f92b774247b395152 HTTP/1.1" 200 None
+2022-08-30 14:40:48,628 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:40:48,632 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:40:49,807 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:40:49,813 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:40:50,737 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSD&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1661881246797&signature=e71bcf1e8600012d1260f0ceac5956b254de862fdce42741a9391b8bdbec2f93 HTTP/1.1" 400 38
+2022-08-30 14:40:50,743 ERROR :: Erro ao fazer POST pedido para /fapi/v1/order: {'code': -1121, 'msg': 'Invalid symbol.'} (Erro de código 400)
+2022-08-30 14:41:04,268 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:41:04,271 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:41:04,714 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:41:04,725 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:41:05,633 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1661881261703&signature=e2fff09995c1930b9b317f4a0dcca310ac5327ff8514513787fc08da50f0d926 HTTP/1.1" 200 None
+2022-08-30 14:45:44,191 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:45:44,196 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:45:44,659 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:45:44,662 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:45:45,638 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881541634&signature=82bceb2aec37c9a11f0259f9a918d4bc3aae51018921dbafaa1979720ec3b30d HTTP/1.1" 400 42
+2022-08-30 14:45:45,640 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:45:53,785 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:45:53,790 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:45:54,234 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:45:54,240 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:45:55,161 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881551207&signature=ac853b05d8d9b4afc726b7f9f977ef91fb3affdc611ad1144ffb4d01e49a67dd HTTP/1.1" 400 42
+2022-08-30 14:45:55,166 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:48:01,198 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:48:01,201 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:48:01,643 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:48:01,653 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:48:02,684 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661881678607&symbol=BTCUSDT&orderId=3205707577&signature=39f91c87020be9ab0f6c22a37ec38a3430cf4cfc9564307b73b119d5c8e4ec2c HTTP/1.1" 200 None
+2022-08-30 14:48:19,433 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:48:19,437 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:48:19,852 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:48:19,858 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:48:20,774 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881696815&signature=d9364a71c172a5aebf80f2736b925f2eaed0ea2ebf4392d926bcc31f6886253d HTTP/1.1" 400 42
+2022-08-30 14:48:20,776 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:50:15,629 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:50:15,631 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:50:16,126 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:50:16,137 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:50:17,109 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881813084&signature=0fe43226f4bc198a84daa9fd1ccf04da2a40d9aa20904a49936ae7f257a918d8 HTTP/1.1" 400 42
+2022-08-30 14:50:17,110 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:51:40,842 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:51:40,846 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:51:41,824 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881900843&signature=bcac3a818eb2f4873d9c813ade5e269b2a8e1af9a0920368c2ae50707fe4aa87 HTTP/1.1" 400 88
+2022-08-30 14:51:41,825 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."} (Erro de código 400)
+2022-08-30 14:52:03,421 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:52:03,424 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:52:03,880 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:52:03,887 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:52:04,798 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881920831&signature=caf75cf6b6418ee6801dc9dc909c4af426b204b317331b37bc5da6bd82ae0744 HTTP/1.1" 400 42
+2022-08-30 14:52:04,804 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:52:46,759 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:52:46,763 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:52:47,173 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:52:47,176 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:52:48,146 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881964121&signature=7a61823e72d9f50bb3ed85d65401264aa5e3780be27fecd8c4a8315acc41f817 HTTP/1.1" 400 42
+2022-08-30 14:52:48,152 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:53:01,345 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:53:01,348 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:53:01,745 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:53:01,756 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:53:02,674 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661881978692&signature=f4697c7484eecdb59b03f90a2bf319dbe5edd63d362d118258e2e380688a1550 HTTP/1.1" 400 42
+2022-08-30 14:53:02,676 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:53:33,910 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:53:33,913 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:53:34,348 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:53:34,351 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:53:35,262 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205707577&symbol=BTCUSDT&timestamp=1661882011293&signature=dff17e1dfaaf1723214e58433718c4e0abbffc61465b2016bae6f200aa31db32 HTTP/1.1" 400 42
+2022-08-30 14:53:35,265 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:56:34,682 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:56:34,685 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:56:35,153 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:56:35,155 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:56:36,315 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882192087&symbol=BTCUSDT&orderId=3205707577&signature=d9506b937b94fd5e34d97a18966480ae959006ea843b54fb7f94464aa7ed4cdb HTTP/1.1" 200 None
+2022-08-30 14:57:02,981 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:57:02,984 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:57:04,160 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:57:04,168 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:57:05,087 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1661882221094&signature=49c204314a7433517e47b314bf879f89b7c93ce5baef1958fb8180a6749ebd53 HTTP/1.1" 200 None
+2022-08-30 14:57:22,168 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:57:22,172 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:57:22,579 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:57:22,581 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:57:23,545 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882239509&symbol=BTCUSDT&orderId=3205713227&signature=a8965935e66785c5e760120391c9e52739bf303eaec2f50e0f42b0df62cc76ba HTTP/1.1" 200 None
+2022-08-30 14:57:36,749 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:57:36,752 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:57:37,221 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:57:37,223 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:57:38,243 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882254151&symbol=BTCUSDT&orderId=3205713227&signature=3e662639f898d6fee58d354333da283da7df2669bdddcc1b5ac122c06309beeb HTTP/1.1" 200 None
+2022-08-30 14:57:38,250 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:57:38,635 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:57:38,646 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:57:39,564 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205713227&symbol=BTCUSDT&timestamp=1661882255567&signature=900f767d04c0d890d3d4001ac777379782fb5817d3804999002583976f04df51 HTTP/1.1" 400 42
+2022-08-30 14:57:39,565 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 14:58:16,256 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:58:16,260 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:58:16,666 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:58:16,672 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:58:17,640 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882293594&symbol=BTCUSDT&orderId=3205713227&signature=4803ef4f2c58db56ca80c3fbde92eaf58652f37d3486c1ab53547307ffa1ab00 HTTP/1.1" 200 None
+2022-08-30 14:58:17,643 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:58:18,020 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:58:18,030 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:58:19,013 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v2/order?orderId=3205713227&symbol=BTCUSDT&timestamp=1661882294951&signature=bfddd6cad66884cc87dcb6ca50f6fbac4942ef440e90d208d857192dfccdd3da HTTP/1.1" 404 None
+2022-08-30 14:59:25,339 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 14:59:25,343 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:59:25,803 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:59:25,805 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:59:26,850 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882362727&symbol=BTCUSDT&orderId=3205713227&signature=de6b142a6920b193bd85349954f0682b4c3df6812ce32866dee43518162820c4 HTTP/1.1" 200 None
+2022-08-30 14:59:26,856 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 14:59:27,243 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 14:59:27,245 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 14:59:28,176 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/batchOrders?orderId=3205713227&symbol=BTCUSDT&timestamp=1661882364166&signature=4e37532b811fe6cc4ba11313dc51bc4f1c8b01a3c1e9311b850cfe3a79581d47 HTTP/1.1" 400 109
+2022-08-30 14:59:28,178 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/batchOrders: {'code': -1102, 'msg': "Param 'orderIdList' or 'origClientOrderIdList' must be sent, but both were empty/null!"} (Erro de código 400)
+2022-08-30 15:00:02,582 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:00:02,584 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:00:02,985 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:00:02,990 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:00:03,605 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882399907&symbol=BTCUSDT&orderId=3205713227&signature=a419461b51d17bd1d07fcb0fca1aad61580b6af079c5dd089d96f3e0314fefd1 HTTP/1.1" 200 None
+2022-08-30 15:00:03,611 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:00:04,003 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:00:04,008 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:00:05,037 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/allOpenOrders%20?orderId=3205713227&symbol=BTCUSDT&timestamp=1661882400926&signature=f735c49ec3c50ae0c9049c9d6d5afab660b1f877c390ea9fc0ba1ccaa18c79b4 HTTP/1.1" 404 None
+2022-08-30 15:00:15,872 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:00:15,876 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:00:16,269 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:00:16,280 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:00:17,254 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882413190&symbol=BTCUSDT&orderId=3205713227&signature=e5852f218c558cf72db6be545935f20c819da6b0bc1da3a3fcd3894f1fdb9e15 HTTP/1.1" 200 None
+2022-08-30 15:00:17,258 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:00:17,673 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:00:17,678 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:00:18,092 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/allOpenOrders?orderId=3205713227&symbol=BTCUSDT&timestamp=1661882414594&signature=60a7a5bc89fc343e334b28ae06cfe6f3c295c55a0a85fda6bb19d6e1ec0a34db HTTP/1.1" 200 None
+2022-08-30 15:02:24,833 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:02:24,836 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:02:25,320 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:02:25,329 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:02:26,335 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19685.2&timeInForce=GTC&timestamp=1661882542226&signature=42d93852a0f2ae926d411f407436a80c21fdad9b2d853da1fb622961cf3358e1 HTTP/1.1" 200 None
+2022-08-30 15:07:16,463 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:07:16,466 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:07:16,915 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:07:16,918 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:07:17,894 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19710.2&timeInForce=GTC&timestamp=1661882833810&signature=2b9015e6e1c33aad931bf384efce9ad352798b02efd515566abcba8cc0427d49 HTTP/1.1" 200 None
+2022-08-30 15:07:17,897 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:07:18,296 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:07:18,299 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:07:18,796 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882835186&symbol=BTCUSDT&orderId=3205715059&signature=fb29b4a4640e354c63c0add522f7b53b08d7c9bf9ec2e89317e0fbe702b0929a HTTP/1.1" 200 None
+2022-08-30 15:07:18,800 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:07:19,192 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:07:19,196 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:07:19,624 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205715059&symbol=BTCUSDT&timestamp=1661882836089&signature=892fb896cb9cf12d6d7f2fd9b8ff883e1425e55391ef4f82b820af2847b03ddb HTTP/1.1" 400 42
+2022-08-30 15:07:19,630 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 15:08:08,976 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:08:08,980 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:08:10,189 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:08:10,201 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:08:11,120 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19695&timeInForce=GTC&timestamp=1661882887081&signature=d5a6f52cddf27144d1e82da966a23e8b9c50e23c2cb456c2cac2b158b80d6591 HTTP/1.1" 200 None
+2022-08-30 15:08:11,123 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:08:11,508 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:08:11,512 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:08:12,493 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882888400&symbol=BTCUSDT&orderId=3205715059&signature=c4421e4122335a90635c2a3e3de6e6121f99eafe273230723fc71b3b38cfd081 HTTP/1.1" 200 None
+2022-08-30 15:08:40,002 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:08:40,005 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:08:40,467 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:08:40,471 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:08:41,438 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19695&timeInForce=GTC&timestamp=1661882917357&signature=db7a2d28cd336f62ea571bd4642b0f8a42e88d0f2b405c2da236a2eafff97c4d HTTP/1.1" 200 None
+2022-08-30 15:08:41,441 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:08:41,832 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:08:41,843 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:08:42,826 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882918721&symbol=BTCUSDT&orderId=3205715059&signature=7459d2f3d2b210ea38cbb59e585d32625128726cf47ce95090a187fe037bdbc6 HTTP/1.1" 200 None
+2022-08-30 15:09:19,486 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:09:19,489 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:09:19,904 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:09:19,906 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:09:20,878 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1661882956792&symbol=BTCUSDT&orderId=3205715059&signature=33122b60768b0f6c92b76d71d4169727fff80a777fbe682a75cd45a200e4ef8d HTTP/1.1" 200 None
+2022-08-30 15:09:20,885 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:09:22,031 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:09:22,037 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:09:22,949 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205715059&symbol=BTCUSDT&timestamp=1661882958919&signature=443e941737aa105c034ea7e80ae118d0abbe245d88ae0875d3576197dbf59b6c HTTP/1.1" 400 42
+2022-08-30 15:09:22,954 ERROR :: Erro ao fazer DELETE pedido para /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (Erro de código 400)
+2022-08-30 15:12:04,515 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:12:04,519 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:12:04,979 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:12:04,985 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:12:05,968 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19700.0&timeInForce=GTC&timestamp=1661883121857&signature=45c503ef5445ae8d5449fc9e077ffcb1ba4bf6da6f550a66a9f7387d40bcdf7a HTTP/1.1" 200 None
+2022-08-30 15:12:20,929 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:12:20,933 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:12:21,413 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:12:21,416 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:12:22,370 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205718486&symbol=BTCUSDT&timestamp=1661883138291&signature=91ec617521e823a5022d45eac6969bec3e8fa249f99aed441b8f871750a596b4 HTTP/1.1" 200 None
+2022-08-30 15:12:38,252 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:12:38,256 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:12:38,653 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:12:38,661 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:12:39,597 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=19700.0&timeInForce=GTC&timestamp=1661883155527&signature=49759cf7c7189c9fbbf4f429a89ce3a775587be078d73b5986aa805ae702785b HTTP/1.1" 200 None
+2022-08-30 15:13:08,937 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:13:08,940 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-08-30 15:13:09,431 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-08-30 15:13:09,434 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-30 15:13:10,422 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=3205718668&symbol=BTCUSDT&timestamp=1661883186308&signature=2cc5de8bf4c05ca9cd58446030be3e588899d5a88910acf93131f884b2c0f263 HTTP/1.1" 200 None
+2022-08-30 15:39:37,288 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:39:38,950 INFO :: Binance conexão aberta
+2022-08-30 15:41:23,175 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:41:24,837 INFO :: Binance conexão aberta
+2022-08-30 15:44:12,652 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 15:44:14,297 INFO :: Binance conexão aberta
+2022-08-30 16:01:40,617 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 16:01:42,325 INFO :: Binance conexão aberta
+2022-08-30 16:03:55,854 INFO :: Binance Futures Client Iniciado com sucesso
+2022-08-30 16:03:57,519 INFO :: Binance conexão aberta
