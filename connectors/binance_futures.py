@@ -204,7 +204,22 @@ class BinanceFuturesClient:
         return
 
     def on_message(self, ws, msg):
-        print(msg)
+        
+        data = json.loads(msg)
+
+        if "e" in data:
+            if data["e"] == "bookTicker":
+
+                symbol = data['s']
+
+                if symbol not in self.prices:
+                    self.prices[symbol] = {'bid': float(data['b']), 'ask': float(data['a'])}
+                else:
+                    self.prices[symbol]['bid'] = float(data['b'])
+                    self.prices[symbol]['ask'] = float(data['a'])
+                print(self.prices[symbol])
+
+
 
     def subscribe_channel(self, symbol):
 
@@ -213,9 +228,6 @@ class BinanceFuturesClient:
         data['params'] = []
         data['params'].append(symbol.lower() + "@bookTicker")
         data['id'] =   self.id
-
-        print(data, type(data))
-        print(json.dumps(data), type(json.dumps(data)))
 
         self.ws.send(json.dumps(data))
 
