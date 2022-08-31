@@ -2,8 +2,9 @@ import tkinter as tk
 import logging
 import os
 
-#from bitmax_api.bitmax import get_contracts
 from connectors.binance_futures import BinanceFuturesClient
+from connectors.bitmax import BitmexClient
+
 from os.path import join, dirname
 from dotenv import load_dotenv
 
@@ -13,6 +14,9 @@ load_dotenv(dotenv_path)
 
 api_key_futures =  os.environ.get("api_key_futures")
 api_secret_futures = os.environ.get('api_secret_futures')
+api_key_bitmex =  os.environ.get("api_key_bitmex")
+api_secret_bitmex = os.environ.get('api_secret_bitmex')
+
 
 logger = logging.getLogger()
 
@@ -33,11 +37,10 @@ logger.addHandler(file_handler)
 
 
 if __name__ == '__main__':
-    #binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
-    #print(binance.get_balances())
-    #print(binance.place_order("BTCUSDT", "BUY", 0.01, "LIMIT", 19700.00, "GTC"))
-    #print(binance.get_order_status("BTCUSDT", 3205718668))
-    #print(binance.cancel_order("BTCUSDT", 3205718668))
+    binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
+    bitmex = BitmexClient(api_key_bitmex, api_secret_bitmex, True)
+    print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
+    print(bitmex.balances['XBt'].wallet_balance)
 
     class Interface:
 
@@ -58,7 +61,7 @@ if __name__ == '__main__':
             label_title = tk.Label(self.root ,text='Robot Auto trading Binance', font='arial 20', bg='Gray10', fg='white')
             label_title.pack(side=tk.TOP, anchor=tk.CENTER, fill='x')
 
-            label_balance =tk.Label(self.root ,text='Balance: 1000.00 USD', font=self.calibri_font, bg='darkgreen', borderwidth=1, fg='white')
+            label_balance =tk.Label(self.root ,text=f"Balance: XBt {bitmex.balances['XBt'].wallet_balance}", font=self.calibri_font, bg='darkgreen', borderwidth=1, fg='white')
             label_balance.pack(side=tk.TOP, anchor=tk.NW, pady=5)
             
     Interface()
