@@ -115,7 +115,6 @@ class BinanceFuturesClient:
         if raw_candles is not None:
             for c in raw_candles:
                 candles.append(Candle(c))
-
         
         return candles
 
