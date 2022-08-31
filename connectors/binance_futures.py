@@ -1,8 +1,8 @@
 import logging
-from re import S
 import requests
 import time
 import json
+import typing
 
 from urllib.parse import urlencode
 
@@ -12,13 +12,15 @@ import hashlib
 import websocket
 import threading
 
+from models import Balance, Candle, Contract, OrderStatus
+
 
 logger = logging.getLogger()
 
 
 class BinanceFuturesClient:
     
-    def __init__(self, public_key, secret_key, testnet):
+    def __init__(self, public_key: str, secret_key: str, testnet: bool):
         if testnet:
             self.base_url = "https://testnet.binancefuture.com"
             self.wss_url = "wss://stream.binancefuture.com/ws"
@@ -30,6 +32,9 @@ class BinanceFuturesClient:
         self.secret_key = secret_key
 
         self.headers = {'X-MBX-APIKEY': self.public_key}
+
+        self.contracts = self.get_contracts()
+        self.balances = self.get_balances()
 
         self.prices = dict()
 
@@ -50,11 +55,11 @@ class BinanceFuturesClient:
         return int(time_stamp['serverTime'])
 
 
-    def generate_signature(self, data):
+    def generate_signature(self, data: typing.Dict):
         return hmac.new(self.secret_key.encode(), urlencode(data).encode(), hashlib.sha256).hexdigest()
 
 
-    def make_request(self, method, endpoints, data):
+    def make_request(self, method: str, endpoints: str, data: typing.Dict):
         if method == "GET":
             response = requests.get(self.base_url + endpoints, params=data, headers=self.headers)
         elif method == "POST":
@@ -80,14 +85,14 @@ class BinanceFuturesClient:
         contracts = dict()
         if exchange_info is not None:
             for contract_data in exchange_info['symbols']:
-                contracts[contract_data['pair']] = contract_data
+                contracts[contract_data['pair']] = Contract(contract_data)
 
         return contracts
     
 
-    def get_historical_candles(self, symbol, interval):
+    def get_historical_candles(self, contract: Contract, interval: str):
         data = dict()
-        data['symbol'] = symbol
+        data['symbol'] = contract.symbol
         data['interval'] = interval
         data['limit'] = 1000
 
@@ -97,25 +102,27 @@ class BinanceFuturesClient:
 
         if raw_candles is not None:
             for c in raw_candles:
-                candles.append([c[0], float(c[1]), float(c[2]), float(c[3]), float(c[4]), float(c[5])])
+                candles.append(Candle(c))
+
         
         return candles
 
     # Symbol Order Book Ticker
-    def get_bind_ask(self, symbol):
+    def get_bind_ask(self, contract: Contract):
         """https://testnet.binancefuture.com/fapi/v1/ticker/bookTicker?symbol=BTCUSDT"""
+        
         data = dict()
-        data['symbol'] = symbol
+        data['symbol'] = contract.symbol
         ob_data = self.make_request("GET", "/fapi/v1/ticker/bookTicker", data)
 
         if ob_data is not None:
-            if symbol not in self.prices:
-                self.prices[symbol] = {'bid': float(ob_data['bidPrice']), 'ask': float(ob_data['askPrice'])}
+            if contract.symbol not in self.prices:
+                self.prices[contract.symbol] = {'bid': float(ob_data['bidPrice']), 'ask': float(ob_data['askPrice'])}
             else:
-                self.prices[symbol]['bid'] = float(ob_data['bidPrice'])
-                self.prices[symbol]['ask'] = float(ob_data['askPrice'])
+                self.prices[contract.symbol]['bid'] = float(ob_data['bidPrice'])
+                self.prices[contract.symbol]['ask'] = float(ob_data['askPrice'])
 
-        return self.prices[symbol]
+            return self.prices[contract.symbol]
 
 
     def get_balances(self):
@@ -129,15 +136,17 @@ class BinanceFuturesClient:
         
         if account_data is not None:
             for a in account_data['assets']:
-                balances[a['asset']] = a
+                balances[a['asset']] = Balance(a)
+
+        print(balances['USDT'].wallet_balance)
 
         return balances
     
 
-    def place_order(self, symbol, side, quantity, order_type, price=None, tif=None):
+    def place_order(self, contract: Contract, side: str, quantity:float, order_type: str, price=None, tif=None):
         
         data = dict()
-        data['symbol'] = symbol
+        data['symbol'] = contract.symbol
         data['side'] = side
         data['quantity'] = quantity
         data['type'] = order_type
@@ -153,32 +162,41 @@ class BinanceFuturesClient:
 
         order_status = self.make_request("POST", "/fapi/v1/order", data)
 
+        if order_status is not None:
+            order_status = OrderStatus(order_status)
+
         return order_status
 
 
-    def cancel_order(self, symbol, order_Id):
+    def cancel_order(self, contract: Contract, order_Id: int):
 
         data = dict()
         data['orderId'] = order_Id
-        data['symbol'] = symbol
+        data['symbol'] = contract.symbol
         
         data['timestamp'] = self.timestamp()
         data['signature'] = self.generate_signature(data)
 
         order_status = self.make_request("DELETE", "/fapi/v1/order", data)
 
+        if order_status is not None:
+            order_status = OrderStatus(order_status)
+
         return order_status
 
 
-    def get_order_status(self, symbol, order_id):
+    def get_order_status(self, contract: Contract, order_id: int):
 
         data = dict()
         data['timestamp'] = self.timestamp()
-        data['symbol'] = symbol
+        data['symbol'] = contract.symbol
         data['orderId'] = order_id
         data['signature'] = self.generate_signature(data)
 
         order_status = self.make_request('GET', "/fapi/v1/order", data)
+
+        if order_status is not None:
+            order_status = OrderStatus(order_status)
 
         return order_status
 
@@ -199,12 +217,12 @@ class BinanceFuturesClient:
         logger.warning("Binance Websocket conexão fechada")
         return
 
-    def on_error(self, ws, msg):#ws : adiconar na versão mas recente
+    def on_error(self, ws, msg: str):#ws : adiconar na versão mas recente
         logger.error("Binance conexão error %s", msg)
         return
 
-    def on_message(self, ws, msg):
-        
+    def on_message(self, ws, msg: str):#ws : adiconar na versão mas recente
+
         data = json.loads(msg)
 
         if "e" in data:
@@ -220,13 +238,12 @@ class BinanceFuturesClient:
                 print(self.prices[symbol])
 
 
-
-    def subscribe_channel(self, symbol):
+    def subscribe_channel(self, contract: Contract):
 
         data = dict()
         data['method'] = 'SUBSCRIBE'
         data['params'] = []
-        data['params'].append(symbol.lower() + "@bookTicker")
+        data['params'].append(contract.symbol.lower() + "@bookTicker")
         data['id'] =   self.id
 
         self.ws.send(json.dumps(data))
