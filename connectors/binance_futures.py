@@ -38,7 +38,7 @@ class BinanceFuturesClient:
 
         self.prices = dict()
 
-        self.id = 1
+        self.ws_id = 1
         self.ws = None
 
         t = threading.Thread(target=self.start_ws)
@@ -55,17 +55,29 @@ class BinanceFuturesClient:
         return int(time_stamp['serverTime'])
 
 
-    def generate_signature(self, data: typing.Dict):
+    def generate_signature(self, data: typing.Dict) -> str:
         return hmac.new(self.secret_key.encode(), urlencode(data).encode(), hashlib.sha256).hexdigest()
 
 
     def make_request(self, method: str, endpoints: str, data: typing.Dict):
         if method == "GET":
-            response = requests.get(self.base_url + endpoints, params=data, headers=self.headers)
+            try:
+                response = requests.get(self.base_url + endpoints, params=data, headers=self.headers)
+            except Exception as e:
+                logger.error('Erro de conexão ao fazer %s request para %s: %s', method, endpoints, e)
+                return None
         elif method == "POST":
-            response = requests.post(self.base_url + endpoints, params=data, headers=self.headers)
+            try:
+                response = requests.post(self.base_url + endpoints, params=data, headers=self.headers)
+            except Exception as e:
+                logger.error('Erro de conexão ao fazer %s request para %s: %s', method, endpoints, e)
+                return None
         elif method == "DELETE":
-            response = requests.delete(self.base_url + endpoints, params=data, headers=self.headers)
+            try:
+                response = requests.delete(self.base_url + endpoints, params=data, headers=self.headers)
+            except Exception as e:
+                logger.error('Erro de conexão ao fazer %s request para %s: %s', method, endpoints, e)
+                return None
         else:
             ValueError()
         
@@ -77,9 +89,9 @@ class BinanceFuturesClient:
             return None
 
 
-    def get_contracts(self):
+    def get_contracts(self) -> typing.Dict[str, Contract]:
         """"https://testnet.binancefuture.com/fapi/v1/exchangeInfo"""
-        exchange_info = self.make_request("GET", "/fapi/v1/exchangeInfo", None)
+        exchange_info = self.make_request("GET", "/fapi/v1/exchangeInfo", dict())
 
         # Dicionario   
         contracts = dict()
@@ -90,7 +102,7 @@ class BinanceFuturesClient:
         return contracts
     
 
-    def get_historical_candles(self, contract: Contract, interval: str):
+    def get_historical_candles(self, contract: Contract, interval: str) -> typing.List[Candle]:
         data = dict()
         data['symbol'] = contract.symbol
         data['interval'] = interval
@@ -108,7 +120,7 @@ class BinanceFuturesClient:
         return candles
 
     # Symbol Order Book Ticker
-    def get_bind_ask(self, contract: Contract):
+    def get_bind_ask(self, contract: Contract) -> typing.Dict[str, float]:
         """https://testnet.binancefuture.com/fapi/v1/ticker/bookTicker?symbol=BTCUSDT"""
         
         data = dict()
@@ -125,7 +137,7 @@ class BinanceFuturesClient:
             return self.prices[contract.symbol]
 
 
-    def get_balances(self):
+    def get_balances(self) -> typing.Dict[str, Balance]:
         data = dict()
         data['timestamp'] = self.timestamp()
         data['signature'] = self.generate_signature(data)
@@ -138,12 +150,10 @@ class BinanceFuturesClient:
             for a in account_data['assets']:
                 balances[a['asset']] = Balance(a)
 
-        print(balances['USDT'].wallet_balance)
-
         return balances
     
 
-    def place_order(self, contract: Contract, side: str, quantity:float, order_type: str, price=None, tif=None):
+    def place_order(self, contract: Contract, side: str, quantity:float, order_type: str, price=None, tif=None) -> OrderStatus:
         
         data = dict()
         data['symbol'] = contract.symbol
@@ -168,7 +178,7 @@ class BinanceFuturesClient:
         return order_status
 
 
-    def cancel_order(self, contract: Contract, order_Id: int):
+    def cancel_order(self, contract: Contract, order_Id: int) -> OrderStatus:
 
         data = dict()
         data['orderId'] = order_Id
@@ -185,7 +195,7 @@ class BinanceFuturesClient:
         return order_status
 
 
-    def get_order_status(self, contract: Contract, order_id: int):
+    def get_order_status(self, contract: Contract, order_id: int) -> OrderStatus:
 
         data = dict()
         data['timestamp'] = self.timestamp()
@@ -235,7 +245,6 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
-                print(self.prices[symbol])
 
 
     def subscribe_channel(self, contract: Contract):
@@ -244,8 +253,12 @@ class BinanceFuturesClient:
         data['method'] = 'SUBSCRIBE'
         data['params'] = []
         data['params'].append(contract.symbol.lower() + "@bookTicker")
-        data['id'] =   self.id
+        data['id'] =   self.ws_id
 
-        self.ws.send(json.dumps(data))
+        try:
+            self.ws.send(json.dumps(data))
+        except Exception as e:
+            logger.error('Websocket erro ao assinar %s: %s', contract.symbol, e)
+            return None
 
-        self.id += 1
+        self.ws_id += 1

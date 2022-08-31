@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
         def __init__(self) -> None:
             self.binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
-            print(self.binance.get_balances())
+
 
             self.root = tk.Tk()
             self.root.configure(bg='Gray12')
