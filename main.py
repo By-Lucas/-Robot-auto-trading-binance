@@ -33,7 +33,6 @@ logger.addHandler(file_handler)
 
 
 if __name__ == '__main__':
-
     #binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
     #print(binance.get_balances())
     #print(binance.place_order("BTCUSDT", "BUY", 0.01, "LIMIT", 19700.00, "GTC"))
@@ -43,8 +42,6 @@ if __name__ == '__main__':
     class Interface:
 
         def __init__(self) -> None:
-            self.binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
-
 
             self.root = tk.Tk()
             self.root.configure(bg='Gray12')
