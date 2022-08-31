@@ -43,9 +43,7 @@ if __name__ == '__main__':
     print(bitmex.balances['XBt'].wallet_balance)
 
     class Interface:
-
         def __init__(self) -> None:
-
             self.root = tk.Tk()
             self.root.configure(bg='Gray12')
             self.title = self.root.title('Robo TK Binance')
