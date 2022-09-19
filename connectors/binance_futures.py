@@ -12,7 +12,6 @@ import hashlib
 import websocket
 import threading
 
-
 from models import Balance, Candle, Contract, OrderStatus
 
 

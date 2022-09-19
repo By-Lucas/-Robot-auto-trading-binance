@@ -41,11 +41,10 @@ if __name__ == '__main__':
     bitmex = BitmexClient(api_key_bitmex, api_secret_bitmex, True)
     print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
     print(bitmex.balances['XBt'].wallet_balance)
-    print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", price=20000, tif="GoodTillCancel"))
-    try:
-        print(bitmex.get_order_status("17957323-1f0f-88aa-a35c-c7851789d12e", bitmex.contracts['XBTUSD']).status)
-    except Exception as e:
-        print(e)
+    
+    #print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", price=20000, tif="GoodTillCancel"))
+    #print(bitmex.get_order_status("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6", bitmex.contracts['XBTUSD']).status)
+    print(bitmex.cancel_order("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6").status)
 
 
     class Interface:

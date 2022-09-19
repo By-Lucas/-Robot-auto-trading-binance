@@ -18,6 +18,7 @@ logger = logging.getLogger()
 
 
 class BitmexClient:
+    
     def __init__(self, public_key:str, secret_key:str, testnet:bool):
         if testnet:
             self._base_url = "https://testnet.bitmex.com"
@@ -152,7 +153,7 @@ class BitmexClient:
 
         order_status = self._make_request("POST", "/api/v1/order", data)
 
-        if order_status is not None:
+        if order_status is None:
             order_status = OrderStatus(order_status, "bitmex")
 
         return order_status
@@ -164,20 +165,20 @@ class BitmexClient:
 
         order_status = self._make_request("DELETE", "/api/v1/order", data)
 
-        if order_status is None:
+        if order_status is not None:
             order_status = OrderStatus(order_status[0], "bitmex")
 
         return order_status
 
 
-    def get_order_status(self, order_id:str, contract: Contract):
+    def get_order_status(self, order_id: str, contract: Contract):
         data = dict()
         data['symbol'] = contract.symbol
         data['reverse'] = True
 
         order_status = self._make_request("GET", "/api/v1/order", data)
 
-        if order_status is None:
+        if order_status is not None:
             for order in order_status:
                 if order['orderID'] == order_id:
                     return OrderStatus(order, "bitmex")

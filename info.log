@@ -707,3 +707,109 @@
 2022-09-19 17:08:22,611 ERROR :: Erro ao fazer POST pedido para /api/v1/order: {'error': {'message': 'Invalid leavesQty for lotSize', 'name': 'HTTPError'}} (Erro de código 400)
 2022-09-19 17:08:22,618 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
 2022-09-19 17:08:23,034 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:22:00,370 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:01,731 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:22:02,330 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:02,750 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:22:02,752 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:22:02,755 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:03,142 DEBUG :: https://testnet.bitmex.com:443 "POST /api/v1/order?symbol=XBTUSD&side=Buy&orderQty=100&ordType=Limit&price=20000&timeInForce=GoodTillCancel HTTP/1.1" 200 None
+2022-09-19 20:22:03,148 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:03,559 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:22:27,770 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:29,136 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:22:29,833 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:30,271 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:22:30,276 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:22:30,278 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:30,686 DEBUG :: https://testnet.bitmex.com:443 "POST /api/v1/order?symbol=XBTUSD&side=Buy&orderQty=100&ordType=Limit&price=20000 HTTP/1.1" 200 None
+2022-09-19 20:22:30,692 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:31,129 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:22:54,962 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:55,398 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:22:55,407 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:55,807 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:22:55,812 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:22:55,814 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:56,202 DEBUG :: https://testnet.bitmex.com:443 "POST /api/v1/order?symbol=XBTUSD&side=Buy&orderQty=100&ordType=Limit&price=20000&timeInForce=GoodTillCancel HTTP/1.1" 200 None
+2022-09-19 20:22:56,209 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:22:56,591 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:23:54,714 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:23:56,050 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:23:56,666 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:23:57,059 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:23:57,064 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:23:57,067 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:23:57,498 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:24:13,872 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:24:14,292 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:24:14,355 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:24:15,333 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:24:15,336 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:24:15,339 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:24:15,730 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:25:39,334 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:39,782 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:25:39,864 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:40,299 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:25:40,307 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:25:40,315 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:40,720 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:25:56,640 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:57,069 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:25:57,099 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:57,490 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:25:57,497 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:25:57,504 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:57,920 DEBUG :: https://testnet.bitmex.com:443 "POST /api/v1/order?symbol=XBTUSD&side=Buy&orderQty=100&ordType=Limit&price=20000&timeInForce=GoodTillCancel HTTP/1.1" 200 None
+2022-09-19 20:25:57,927 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:25:58,478 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:26:16,310 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:26:16,822 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:26:16,884 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:26:17,278 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:26:17,282 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:26:17,286 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:26:17,672 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/order?symbol=XBTUSD&reverse=True HTTP/1.1" 200 None
+2022-09-19 20:28:04,087 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:05,124 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:28:05,523 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:05,902 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:28:05,906 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:28:05,910 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:06,302 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 20:28:30,207 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:30,627 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:28:30,682 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:31,131 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:28:31,136 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:28:31,138 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:28:31,567 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 20:31:16,984 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:17,431 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:31:17,485 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:18,524 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:31:18,529 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:31:18,531 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:18,960 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 20:31:26,111 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:27,351 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:31:27,968 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:28,357 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:31:28,359 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:31:28,360 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:28,756 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 20:31:40,408 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:41,571 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:31:42,151 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:42,582 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:31:42,587 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:31:42,589 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:42,998 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 20:31:55,155 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:55,555 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 20:31:55,605 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:56,043 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 20:31:56,048 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 20:31:56,050 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 20:31:56,452 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
