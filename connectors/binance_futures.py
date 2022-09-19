@@ -217,15 +217,19 @@ class BinanceFuturesClient:
                 logger.error("Binance erro em run_forever() metodo: %s", e) 
             time.sleep(2)
 
+
     def _on_open(self, ws):#ws : adiconar na versão mas recente
         logger.info("Binance conexão aberta")
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
 
+
     def _on_close(self, ws):#ws : adiconar na versão mas recente
         logger.warning("Binance Websocket conexão fechada")
 
+
     def _on_error(self, ws, msg: str):#ws : adiconar na versão mas recente
         logger.error("Binance conexão error %s", msg)
+
 
     def _on_message(self, ws, msg: str):#ws : adiconar na versão mas recente
         data = json.loads(msg)
