@@ -12,6 +12,7 @@ import hashlib
 import websocket
 import threading
 
+
 from models import Balance, Candle, Contract, OrderStatus
 
 
@@ -170,7 +171,7 @@ class BinanceFuturesClient:
         order_status = self._make_request("POST", "/fapi/v1/order", data)
 
         if order_status is not None:
-            order_status = OrderStatus(order_status)
+            order_status = OrderStatus(order_status, "binance")
 
         return order_status
 
@@ -186,7 +187,7 @@ class BinanceFuturesClient:
         order_status = self._make_request("DELETE", "/fapi/v1/order", data)
 
         if order_status is not None:
-            order_status = OrderStatus(order_status)
+            order_status = OrderStatus(order_status, "binance")
 
         return order_status
 
@@ -200,8 +201,8 @@ class BinanceFuturesClient:
 
         order_status = self._make_request('GET', "/fapi/v1/order", data)
 
-        if order_status is not None:
-            order_status = OrderStatus(order_status)
+        if order_status is None:
+            order_status = OrderStatus(order_status, "binance")
 
         return order_status
 

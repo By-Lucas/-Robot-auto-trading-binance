@@ -116,3 +116,69 @@ class BitmexClient:
             for a in margin_data:
                 balances[a['currency']] = Balance(a, "bitmex")
         return balances
+
+
+    def get_historical_candles(self, contract: Contract, timeframe: str) -> typing.List[Candle]:
+        data = dict()
+
+        data['symbol'] = contract.symbol
+        data['partial'] = True
+        data['binSize'] = timeframe
+        data['count'] = 500
+
+        raw_cancles = self._make_request("GET", "/api/vi/trade/bucketd", data)
+
+        candles = []
+        if raw_cancles is not None:
+            for c in raw_cancles:
+                candles.append(c, 'bitmex')
+        
+        return candles
+
+
+    def place_order(self, contract: Contract, order_type: str, quantity: int, side: str, price=None, tif=None) -> OrderStatus:
+        data = dict()
+
+        data['symbol'] = contract.symbol
+        data['side'] = side.capitalize()
+        data['orderQty'] = quantity
+        data['ordType'] = order_type.capitalize()
+
+        if price is not None:
+            data['price'] = price
+        
+        if tif is not None:
+            data['timeInForce'] = tif
+
+        order_status = self._make_request("POST", "/api/v1/order", data)
+
+        if order_status is not None:
+            order_status = OrderStatus(order_status, "bitmex")
+
+        return order_status
+
+
+    def cancel_order(self, order_id: str):
+        data = dict()
+        data['orderID'] = order_id
+
+        order_status = self._make_request("DELETE", "/api/v1/order", data)
+
+        if order_status is None:
+            order_status = OrderStatus(order_status[0], "bitmex")
+
+        return order_status
+
+
+    def get_order_status(self, order_id:str, contract: Contract):
+        data = dict()
+        data['symbol'] = contract.symbol
+        data['reverse'] = True
+
+        order_status = self._make_request("GET", "/api/v1/order", data)
+
+        if order_status is None:
+            for order in order_status:
+                if order['orderID'] == order_id:
+                    return OrderStatus(order, "bitmex")
+

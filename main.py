@@ -37,10 +37,16 @@ logger.addHandler(file_handler)
 
 
 if __name__ == '__main__':
-    binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
+    #binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
     bitmex = BitmexClient(api_key_bitmex, api_secret_bitmex, True)
     print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
     print(bitmex.balances['XBt'].wallet_balance)
+    print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", price=20000, tif="GoodTillCancel"))
+    try:
+        print(bitmex.get_order_status("17957323-1f0f-88aa-a35c-c7851789d12e", bitmex.contracts['XBTUSD']).status)
+    except Exception as e:
+        print(e)
+
 
     class Interface:
         def __init__(self) -> None:

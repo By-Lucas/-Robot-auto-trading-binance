@@ -19,13 +19,22 @@ class Balance:
 
 
 class Candle:
-    def __init__(self, candle_info) -> None:
-        self.timestamp = candle_info[0]
-        self.open = float(candle_info[1])
-        self.high = float(candle_info[2])
-        self.low = float(candle_info[3])
-        self.close = float(candle_info[4])
-        self.volume = float(candle_info[5])
+    def __init__(self, candle_info, exchange) -> None:
+        if exchange == "binance":
+            self.timestamp = candle_info[0]
+            self.open = float(candle_info[1])
+            self.high = float(candle_info[2])
+            self.low = float(candle_info[3])
+            self.close = float(candle_info[4])
+            self.volume = float(candle_info[5])
+
+        elif exchange == "bitmex":
+            self.timestamp = candle_info['timestamp']
+            self.open = float(candle_info['opem'])
+            self.high = float(candle_info['high'])
+            self.low = float(candle_info['low'])
+            self.close = float(candle_info['close'])
+            self.volume = float(candle_info['volume'])
         
 
 class Contract:
@@ -49,9 +58,14 @@ class Contract:
 
 
 class OrderStatus:
-    def __init__(self, order_info):
-        self.order_ir = order_info['orderId']
-        self.status = order_info['status']
-        self.avg_price = order_info['avgPrice']
+    def __init__(self, order_info, exchange):
+        if exchange == 'binance':
+            self.order_id = order_info['orderId']
+            self.status = order_info['status']
+            self.avg_price = float(order_info['avgPrice'])
 
+        elif exchange == 'bitmex':
+            self.order_id = order_info['orderID']
+            self.status = order_info['ordStatus']
+            self.avg_price = float(order_info['avgPx'])
 
