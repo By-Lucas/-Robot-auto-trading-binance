@@ -813,3 +813,56 @@
 2022-09-19 20:31:56,048 INFO :: Bitmex Client Iniciado com sucesso
 2022-09-19 20:31:56,050 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
 2022-09-19 20:31:56,452 DEBUG :: https://testnet.bitmex.com:443 "DELETE /api/v1/order?orderID=9ae96b66-b381-47ad-9941-7ec0ecb6f1e6 HTTP/1.1" 200 None
+2022-09-19 21:20:43,681 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:20:44,162 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:20:44,226 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:20:44,617 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:20:44,624 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:21:22,461 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:21:22,888 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:21:22,946 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:21:23,370 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:21:23,376 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:21:24,431 INFO :: Bitmex conex„o aberta
+2022-09-19 21:21:24,431 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmax.BitmexClient object at 0x000002A919F3BE20>>: 'params'
+2022-09-19 21:22:24,419 ERROR :: Bitmex conex„o error Connection is already closed.
+2022-09-19 21:22:24,421 WARNING :: Bitmex Websocket conex„o fechada
+2022-09-19 21:22:27,465 INFO :: Bitmex conex„o aberta
+2022-09-19 21:22:27,466 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmax.BitmexClient object at 0x000002A919F3BE20>>: 'params'
+2022-09-19 21:22:42,757 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:22:43,197 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:22:43,262 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:22:43,692 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:22:43,697 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:22:44,739 INFO :: Bitmex conex„o aberta
+2022-09-19 21:22:44,740 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmax.BitmexClient object at 0x000001C35BC6BE20>>: 'str' object has no attribute 'append'
+2022-09-19 21:23:02,867 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:23:03,325 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:23:03,387 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:23:04,473 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:23:04,479 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:23:05,533 INFO :: Bitmex conex„o aberta
+2022-09-19 21:23:55,021 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:23:55,498 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:23:55,554 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:23:55,980 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:23:55,986 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:23:57,025 INFO :: Bitmex conex√£o aberta
+2022-09-19 21:28:33,978 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:28:34,488 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:28:34,547 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:28:34,935 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:28:34,938 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:28:35,967 INFO :: Bitmex conex√£o aberta
+2022-09-19 21:29:24,059 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:29:24,498 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:29:24,527 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:29:24,947 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:29:24,957 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:29:26,003 INFO :: Bitmex conex√£o aberta
+2022-09-19 21:29:54,118 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:29:54,632 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-19 21:29:54,859 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-19 21:29:55,344 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-19 21:29:55,347 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-19 21:29:56,507 INFO :: Bitmex conex√£o aberta

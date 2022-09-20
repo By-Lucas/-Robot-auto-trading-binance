@@ -28,7 +28,7 @@ stream_handler.setFormatter(formatter)
 stream_handler.setLevel(logging.INFO)
 
 # Cria os logs
-file_handler = logging.FileHandler('info.log')
+file_handler = logging.FileHandler('info.log', encoding='UTF-8')
 file_handler.setFormatter(formatter)
 file_handler.setLevel(logging.DEBUG)
 
@@ -39,12 +39,12 @@ logger.addHandler(file_handler)
 if __name__ == '__main__':
     #binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
     bitmex = BitmexClient(api_key_bitmex, api_secret_bitmex, True)
-    print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
-    print(bitmex.balances['XBt'].wallet_balance)
+    # print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
+    # print(bitmex.balances['XBt'].wallet_balance)
     
     #print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", price=20000, tif="GoodTillCancel"))
     #print(bitmex.get_order_status("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6", bitmex.contracts['XBTUSD']).status)
-    print(bitmex.cancel_order("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6").status)
+    # print(bitmex.cancel_order("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6").status)
 
 
     class Interface:

@@ -39,8 +39,8 @@ class BitmexClient:
 
         self._ws_id = 1
 
-        # t = threading.Thread(target=self._start_ws)
-        # t.start()
+        t = threading.Thread(target=self._start_ws)
+        t.start()
 
         logger.info("Bitmex Client Iniciado com sucesso")
 
@@ -159,7 +159,7 @@ class BitmexClient:
         return order_status
 
 
-    def cancel_order(self, order_id: str):
+    def cancel_order(self, order_id: str) -> OrderStatus:
         data = dict()
         data['orderID'] = order_id
 
@@ -171,7 +171,7 @@ class BitmexClient:
         return order_status
 
 
-    def get_order_status(self, order_id: str, contract: Contract):
+    def get_order_status(self, order_id: str, contract: Contract) -> OrderStatus:
         data = dict()
         data['symbol'] = contract.symbol
         data['reverse'] = True
@@ -183,3 +183,60 @@ class BitmexClient:
                 if order['orderID'] == order_id:
                     return OrderStatus(order, "bitmex")
 
+
+    def _start_ws(self):
+        self._ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
+                                    on_error=self._on_error, on_message=self._on_message)
+        while True:
+            try:
+                self._ws.run_forever()
+            except Exception as e:
+                logger.error("Bitmex erro em run_forever() metodo: %s", e) 
+            time.sleep(2)
+
+
+    def _on_open(self, ws):#ws : adiconar na versão mas recente
+        logger.info("Bitmex conexão aberta")
+        self.subscribe_channel("instrument")
+
+
+    def _on_close(self, ws):#ws : adiconar na versão mas recente
+        logger.warning("Bitmex Websocket conexão fechada")
+
+
+    def _on_error(self, ws, msg: str):#ws : adiconar na versão mas recente
+        logger.error("Bitmex conexão error %s", msg)
+
+
+    def _on_message(self, ws, msg: str):#ws : adiconar na versão mas recente
+        data = json.loads(msg)
+
+        if "table" in data:
+            if data["table"] == "instrument":
+
+                for d in data['data']:
+
+                    symbol = d['symbol']
+
+                    if symbol not in self.prices:
+                        self.prices[symbol] = {'bid': None, 'ask': None}
+                    
+                    if 'bidPrice' in d:
+                        self.prices[symbol]['bid'] = d['bidPrice']
+                    if 'askPrice' in d:
+                        self.prices[symbol]['ask'] = d['askPrice']
+                    
+                    print(symbol, self.prices[symbol])
+
+
+    def subscribe_channel(self, topic: str):
+        data = dict()
+        data['op'] = 'subscribe'
+        data['args'] = []
+        data['args'].append(topic)
+
+
+        try:
+            self._ws.send(json.dumps(data))
+        except Exception as e:
+            logger.error('Websocket erro ao assinar %s : %s', topic , e)

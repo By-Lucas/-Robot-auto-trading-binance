@@ -207,11 +207,11 @@ class BinanceFuturesClient:
 
 
     def _start_ws(self):
-        self.ws = websocket.WebSocketApp(self.wss_url, on_open=self._on_open, on_close=self._on_close,
+        self._ws = websocket.WebSocketApp(self.wss_url, on_open=self._on_open, on_close=self._on_close,
                                     on_error=self._on_error, on_message=self._on_message)
         while True:
             try:
-                self.ws.run_forever()
+                self._ws.run_forever()
             except Exception as e:
                 logger.error("Binance erro em run_forever() metodo: %s", e) 
             time.sleep(2)
@@ -251,11 +251,11 @@ class BinanceFuturesClient:
         data['params'] = []
 
         for contract in contracts:
-            data['params'].append(contract.symbol.lower() + "@" + channel)
+            data['params'].append(contract.symbol.lower() + "@" + channel) #@boolTicker
         data['id']= self._ws_id
 
         try:
-            self.ws.send(json.dumps(data))
+            self._ws.send(json.dumps(data))
         except Exception as e:
             logger.error('Websocket erro ao assinar %s %s updates: %s', len(contract), channel , e)
             return None
