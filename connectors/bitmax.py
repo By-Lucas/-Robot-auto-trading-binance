@@ -51,6 +51,7 @@ class BitmexClient:
         logger.info("%s", msg)
         self.logs.append({"log": msg, "displayed": False})
 
+
     def timestamp(self):
         _url = "https://api.binance.com/api/v1/time"
         t = time.time() * 1000
