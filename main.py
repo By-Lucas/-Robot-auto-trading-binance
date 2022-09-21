@@ -1,9 +1,10 @@
-import tkinter as tk
 import logging
 import os
 
 from connectors.binance_futures import BinanceFuturesClient
 from connectors.bitmax import BitmexClient
+
+from interface.root_component import Root
 
 from os.path import join, dirname
 from dotenv import load_dotenv
@@ -37,34 +38,15 @@ logger.addHandler(file_handler)
 
 
 if __name__ == '__main__':
-    #binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
+    binance = BinanceFuturesClient(api_key_futures, api_secret_futures, True)
     bitmex = BitmexClient(api_key_bitmex, api_secret_bitmex, True)
     # print(bitmex.contracts['XBTUSD'].base_asset, bitmex.contracts['XBTUSD'].price_decimals)
     # print(bitmex.balances['XBt'].wallet_balance)
     
-    #print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", price=20000, tif="GoodTillCancel"))
+    #print(bitmex.place_order(bitmex.contracts['XBTUSD'], "Limit", 100, "Buy", 20000.4939338, "GoodTillCancel"))
     #print(bitmex.get_order_status("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6", bitmex.contracts['XBTUSD']).status)
-    # print(bitmex.cancel_order("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6").status)
+    #print(bitmex.cancel_order("9ae96b66-b381-47ad-9941-7ec0ecb6f1e6").status)
+    #bitmex.get_historical_candles(bitmex.contracts['XBTUSD'], "1h")
 
-
-    class Interface:
-        def __init__(self) -> None:
-            self.root = tk.Tk()
-            self.root.configure(bg='Gray12')
-            self.title = self.root.title('Robo TK Binance')
-            self.geometry_root = self.root.geometry('700x500')
-
-            self.calibri_font = ("Calibri", 11, "normal")
-
-            self.labels()
-            self.root.mainloop()
-            
-
-        def labels(self):
-            label_title = tk.Label(self.root ,text='Robot Auto trading Binance', font='arial 20', bg='Gray10', fg='white')
-            label_title.pack(side=tk.TOP, anchor=tk.CENTER, fill='x')
-
-            label_balance =tk.Label(self.root ,text=f"Balance: XBt {bitmex.balances['XBt'].wallet_balance}", font=self.calibri_font, bg='darkgreen', borderwidth=1, fg='white')
-            label_balance.pack(side=tk.TOP, anchor=tk.NW, pady=5)
-            
-    Interface()
+    root = Root(binance, bitmex)
+    root.mainloop()

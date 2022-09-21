@@ -37,6 +37,8 @@ class BitmexClient:
 
         self.prices = dict()
 
+        self.logs = []
+
         self._ws_id = 1
 
         t = threading.Thread(target=self._start_ws)
@@ -44,7 +46,11 @@ class BitmexClient:
 
         logger.info("Bitmex Client Iniciado com sucesso")
 
-    
+
+    def _add_log(self,  msg: str):
+        logger.info("%s", msg)
+        self.logs.append({"log": msg, "displayed": False})
+
     def timestamp(self):
         _url = "https://api.binance.com/api/v1/time"
         t = time.time() * 1000
@@ -126,13 +132,14 @@ class BitmexClient:
         data['partial'] = True
         data['binSize'] = timeframe
         data['count'] = 500
+        data['reverse'] = True
 
-        raw_cancles = self._make_request("GET", "/api/vi/trade/bucketd", data)
+        raw_candles = self._make_request("GET", "/api/v1/trade/bucketed", data)
 
         candles = []
-        if raw_cancles is not None:
-            for c in raw_cancles:
-                candles.append(c, 'bitmex')
+        if raw_candles is not None:
+            for c in reversed(raw_candles):
+                candles.append(Candle(c, timeframe, "bitmex"))
         
         return candles
 
@@ -142,18 +149,18 @@ class BitmexClient:
 
         data['symbol'] = contract.symbol
         data['side'] = side.capitalize()
-        data['orderQty'] = quantity
+        data['orderQty'] = round(round(quantity / contract.lot_size) * contract.lot_size, 8)
         data['ordType'] = order_type.capitalize()
 
         if price is not None:
-            data['price'] = price
+            data['price'] = round(round(price / contract.tick_size) * contract.tick_size, 8)
         
         if tif is not None:
             data['timeInForce'] = tif
 
         order_status = self._make_request("POST", "/api/v1/order", data)
 
-        if order_status is None:
+        if order_status is not None:
             order_status = OrderStatus(order_status, "bitmex")
 
         return order_status
@@ -226,7 +233,9 @@ class BitmexClient:
                     if 'askPrice' in d:
                         self.prices[symbol]['ask'] = d['askPrice']
                     
-                    print(symbol, self.prices[symbol])
+                    # if symbol == "XBTUSD":
+                    #     self._add_log(symbol + " " + str(self.prices[symbol]["bid"]) + " / " + 
+                    #                     str(self.prices[symbol]["ask"]))
 
 
     def subscribe_channel(self, topic: str):

@@ -23,7 +23,7 @@ class BinanceFuturesClient:
     def __init__(self, public_key: str, secret_key: str, testnet: bool):
         if testnet:
             self._base_url = "https://testnet.binancefuture.com"
-            self.wss_url = "wss://stream.binancefuture.com/ws"
+            self._wss_url = "wss://stream.binancefuture.com/ws"
         else:
             self._base_url = "https://fapi.binance.com"
             self._wss_url = "wss://fstream.binance.com/ws"
@@ -38,6 +38,8 @@ class BinanceFuturesClient:
 
         self.prices = dict()
 
+        self.logs = []
+
         self._ws_id = 1
         self._ws = None
 
@@ -45,6 +47,11 @@ class BinanceFuturesClient:
         t.start()
 
         logger.info("Binance Futures Client Iniciado com sucesso")
+
+
+    def _add_log(self,  msg: str):
+        logger.info("%s", msg)
+        self.logs.append({"log": msg, "displayed": False})
 
 
     def timestamp(self):
@@ -114,7 +121,7 @@ class BinanceFuturesClient:
 
         if raw_candles is not None:
             for c in raw_candles:
-                candles.append(Candle(c))
+                candles.append(Candle(c, interval, "binance"))
         
         return candles
 
@@ -155,11 +162,11 @@ class BinanceFuturesClient:
         data = dict()
         data['symbol'] = contract.symbol
         data['side'] = side
-        data['quantity'] = quantity
+        data['quantity'] = round(round(quantity / contract.lot_size) * contract.lot_size, 8)
         data['type'] = order_type
 
         if price is not None:
-            data['price'] = price
+            data['price'] = round(round(price / contract.tick_size) * contract.tick_size, 8)
         
         if tif is not None:
             data['timeInForce'] = tif
@@ -207,18 +214,20 @@ class BinanceFuturesClient:
 
 
     def _start_ws(self):
-        self._ws = websocket.WebSocketApp(self.wss_url, on_open=self._on_open, on_close=self._on_close,
-                                    on_error=self._on_error, on_message=self._on_message)
+        self._ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
+                                         on_error=self._on_error, on_message=self._on_message)
+
         while True:
             try:
                 self._ws.run_forever()
             except Exception as e:
-                logger.error("Binance erro em run_forever() metodo: %s", e) 
+                logger.error("Binance erro em run_forever() metodo: %s", e)
             time.sleep(2)
 
 
     def _on_open(self, ws):#ws : adiconar na versão mas recente
         logger.info("Binance conexão aberta")
+
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
 
 
@@ -258,6 +267,7 @@ class BinanceFuturesClient:
             self._ws.send(json.dumps(data))
         except Exception as e:
             logger.error('Websocket erro ao assinar %s %s updates: %s', len(contract), channel , e)
+            
             return None
 
         self._ws_id += 1
