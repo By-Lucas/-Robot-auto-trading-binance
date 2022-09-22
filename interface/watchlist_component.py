@@ -12,16 +12,17 @@ logger = logging.getLogger()
 
 
 class WatchList(tk.Frame):
-    def __init__(self, binance_contracts: typing.Dict[str, Contract], bitmex_contracts: typing.Dict[str, Contract], *args, **kwargs):
+    def __init__(self, binance_contracts: typing.Dict[str, Contract], bitmex_contracts: typing.Dict[str, Contract],
+                 *args, **kwargs):
         super().__init__(*args, **kwargs)
 
         self.binance_symbols = list(binance_contracts.keys())
         self.bitmex_symbols = list(bitmex_contracts.keys())
 
-        self._commands_frame = tk.Frame(bg=BG_COLOR)
+        self._commands_frame = tk.Frame(self, bg=BG_COLOR)
         self._commands_frame.pack(side=tk.TOP)
 
-        self._table_frame = tk.Frame(bg=BG_COLOR)
+        self._table_frame = tk.Frame(self, bg=BG_COLOR)
         self._table_frame.pack(side=tk.TOP)
 
         self._binance_label = tk.Label(self._commands_frame, text="Binance", bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)

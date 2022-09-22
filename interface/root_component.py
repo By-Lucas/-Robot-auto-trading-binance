@@ -9,6 +9,7 @@ from interface.styling import *
 from interface.logging_component import Logging
 from interface.watchlist_component import WatchList
 from interface.trades_component import TradesWatch
+from interface.strategy_component import StrategyEditor
 
 
 logger = logging.getLogger()
@@ -34,10 +35,13 @@ class Root(tk.Tk):
         self._right_frame.pack(side=tk.LEFT)
 
         self._watchlist_frame = WatchList(self.binance.contracts, self.bitmex.contracts, self._left_frame, bg=BG_COLOR)
-        self._watchlist_frame.pack(side=tk.TOP, anchor=tk.NW)
+        self._watchlist_frame.pack(side=tk.TOP)
 
         self._logging_frame = Logging(self._left_frame, bg=BG_COLOR)
         self._logging_frame.pack(side=tk.TOP)
+
+        self._strategy_frame = StrategyEditor(self._right_frame, bg=BG_COLOR)
+        self._strategy_frame.pack(side=tk.TOP)
 
         self._trades_frame = TradesWatch(self._right_frame, bg=BG_COLOR)
         self._trades_frame.pack(side=tk.TOP)
@@ -45,6 +49,7 @@ class Root(tk.Tk):
 
 
         self.center(self) # Inicia janela centralizada
+
         self._update_ui()
 
 
