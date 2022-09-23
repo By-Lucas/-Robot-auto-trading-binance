@@ -1518,3 +1518,1290 @@
 2022-09-22 10:21:48,686 WARNING :: Binance Websocket conexão fechada
 2022-09-22 10:21:51,963 INFO :: Binance conexão aberta
 2022-09-22 10:21:52,274 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:33:56,257 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:33:56,738 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:33:56,747 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:33:57,234 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:33:57,238 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:33:58,513 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663853634770&signature=5e6c87b3fa977f8727c66e75abeb8a2048e35f87bfe6231d3bcfda47dcd678f5 HTTP/1.1" 200 None
+2022-09-22 10:33:58,516 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:33:58,518 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:33:59,749 INFO :: Binance conexão aberta
+2022-09-22 10:33:59,754 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:34:00,048 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:00,379 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:34:00,764 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:34:00,772 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:34:01,954 INFO :: Bitmex conexão aberta
+2022-09-22 10:34:03,405 INFO :: Binance conexão aberta
+2022-09-22 10:34:03,738 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:06,953 INFO :: Binance conexão aberta
+2022-09-22 10:34:07,254 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:10,590 INFO :: Binance conexão aberta
+2022-09-22 10:34:10,916 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:14,210 INFO :: Binance conexão aberta
+2022-09-22 10:34:14,536 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:17,730 INFO :: Binance conexão aberta
+2022-09-22 10:34:18,024 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:21,233 INFO :: Binance conexão aberta
+2022-09-22 10:34:21,530 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:24,763 INFO :: Binance conexão aberta
+2022-09-22 10:34:25,073 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:28,352 INFO :: Binance conexão aberta
+2022-09-22 10:34:28,669 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:31,916 INFO :: Binance conexão aberta
+2022-09-22 10:34:32,216 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:35,489 INFO :: Binance conexão aberta
+2022-09-22 10:34:35,797 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:39,033 INFO :: Binance conexão aberta
+2022-09-22 10:34:39,327 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:34:42,654 INFO :: Binance conexão aberta
+2022-09-22 10:34:42,983 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:03,179 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:36:04,146 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:36:04,151 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:36:05,357 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:36:05,359 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:36:06,289 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663853762932&signature=62cb39da53a195d5199bf5e717e8aad23d3cce4c15eb5fe6d4d25b3513558932 HTTP/1.1" 200 None
+2022-09-22 10:36:06,294 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:36:06,297 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:36:06,779 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:36:06,839 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:36:07,340 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:36:07,342 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:36:07,738 INFO :: Binance conexão aberta
+2022-09-22 10:36:08,077 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:08,377 INFO :: Bitmex conexão aberta
+2022-09-22 10:36:11,322 INFO :: Binance conexão aberta
+2022-09-22 10:36:11,627 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:14,924 INFO :: Binance conexão aberta
+2022-09-22 10:36:15,224 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:18,451 INFO :: Binance conexão aberta
+2022-09-22 10:36:18,755 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:22,058 INFO :: Binance conexão aberta
+2022-09-22 10:36:22,383 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:25,791 INFO :: Binance conexão aberta
+2022-09-22 10:36:26,140 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:29,330 INFO :: Binance conexão aberta
+2022-09-22 10:36:29,627 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:32,894 INFO :: Binance conexão aberta
+2022-09-22 10:36:33,207 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:36,434 INFO :: Binance conexão aberta
+2022-09-22 10:36:36,735 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:39,971 INFO :: Binance conexão aberta
+2022-09-22 10:36:40,297 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:43,573 INFO :: Binance conexão aberta
+2022-09-22 10:36:43,884 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:47,221 INFO :: Binance conexão aberta
+2022-09-22 10:36:47,556 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:50,836 INFO :: Binance conexão aberta
+2022-09-22 10:36:51,152 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:54,513 INFO :: Binance conexão aberta
+2022-09-22 10:36:54,852 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:36:58,246 INFO :: Binance conexão aberta
+2022-09-22 10:36:58,588 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:01,842 INFO :: Binance conexão aberta
+2022-09-22 10:37:02,151 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:05,358 INFO :: Binance conexão aberta
+2022-09-22 10:37:05,656 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:10,237 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:37:11,706 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:37:11,712 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:37:12,330 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:37:12,332 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:37:13,635 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663853829709&signature=2980e6b12a157dec935238396457db16dc048317eab63ff5e45c6f2f5ec590e9 HTTP/1.1" 200 None
+2022-09-22 10:37:13,638 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:37:13,639 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:37:14,282 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:37:14,357 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:37:14,765 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:37:14,768 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:37:14,900 INFO :: Binance conexão aberta
+2022-09-22 10:37:15,202 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:15,850 INFO :: Bitmex conexão aberta
+2022-09-22 10:37:18,601 INFO :: Binance conexão aberta
+2022-09-22 10:37:19,038 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:22,245 INFO :: Binance conexão aberta
+2022-09-22 10:37:22,536 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:25,760 INFO :: Binance conexão aberta
+2022-09-22 10:37:26,061 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:29,326 INFO :: Binance conexão aberta
+2022-09-22 10:37:29,642 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:32,839 INFO :: Binance conexão aberta
+2022-09-22 10:37:33,133 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:36,392 INFO :: Binance conexão aberta
+2022-09-22 10:37:36,698 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:39,939 INFO :: Binance conexão aberta
+2022-09-22 10:37:40,250 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:37:43,521 INFO :: Binance conexão aberta
+2022-09-22 10:37:43,834 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:40:42,512 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:40:43,498 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:40:43,504 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:40:43,942 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:40:43,953 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:40:44,877 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663854041500&signature=66dfe6cedee7bbcdf4deff1429452b4ca3e6f68c4be400c6a2abf4919c78759a HTTP/1.1" 200 None
+2022-09-22 10:40:44,888 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:40:44,894 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:40:45,362 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:40:45,430 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:40:45,922 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:40:45,928 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:40:46,256 INFO :: Binance conexão aberta
+2022-09-22 10:40:46,586 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:40:46,997 INFO :: Bitmex conexão aberta
+2022-09-22 10:40:49,832 INFO :: Binance conexão aberta
+2022-09-22 10:40:50,138 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:40:53,409 INFO :: Binance conexão aberta
+2022-09-22 10:40:53,721 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:40:57,020 INFO :: Binance conexão aberta
+2022-09-22 10:40:57,344 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:41:00,696 INFO :: Binance conexão aberta
+2022-09-22 10:41:01,030 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:41:04,272 INFO :: Binance conexão aberta
+2022-09-22 10:47:27,054 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:47:28,031 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:47:28,036 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:47:28,485 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:47:28,497 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:47:28,920 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663854446018&signature=06053e3e9cdd2654fca736aab38ea8fdc22102186b0397ec49ed5c74c2d44c87 HTTP/1.1" 200 None
+2022-09-22 10:47:28,923 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:47:28,925 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:47:29,356 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:47:29,405 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:47:29,824 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:47:29,826 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:47:30,217 INFO :: Binance conexão aberta
+2022-09-22 10:47:30,534 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:30,929 INFO :: Bitmex conexão aberta
+2022-09-22 10:47:33,777 INFO :: Binance conexão aberta
+2022-09-22 10:47:34,154 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:37,429 INFO :: Binance conexão aberta
+2022-09-22 10:47:37,748 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:40,974 INFO :: Binance conexão aberta
+2022-09-22 10:47:41,274 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:44,535 INFO :: Binance conexão aberta
+2022-09-22 10:47:44,836 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:48,144 INFO :: Binance conexão aberta
+2022-09-22 10:47:48,469 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:47:51,765 INFO :: Binance conexão aberta
+2022-09-22 10:47:52,086 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:26,361 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:49:26,865 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:49:26,885 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:49:27,325 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:49:27,327 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:49:28,230 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663854564852&signature=b99bc59f6e73a4da1f4297316d26fe18cec10b79017d513835108b320c1b4e9f HTTP/1.1" 200 None
+2022-09-22 10:49:28,239 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:49:28,243 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:49:29,469 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:49:29,571 INFO :: Binance conexão aberta
+2022-09-22 10:49:29,891 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:30,069 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:49:30,510 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:49:30,518 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:49:31,572 INFO :: Bitmex conexão aberta
+2022-09-22 10:49:33,148 INFO :: Binance conexão aberta
+2022-09-22 10:49:33,457 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:36,648 INFO :: Binance conexão aberta
+2022-09-22 10:49:36,942 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:40,296 INFO :: Binance conexão aberta
+2022-09-22 10:49:40,629 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:43,995 INFO :: Binance conexão aberta
+2022-09-22 10:49:44,328 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:49:47,576 INFO :: Binance conexão aberta
+2022-09-22 10:49:47,882 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:50:42,266 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:50:43,227 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:50:43,236 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:50:43,670 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:50:43,674 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:50:44,588 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663854641193&signature=6a4e59acf94bf85a53be60207fcf90f3ec910d62f91b6f10c9c3c8e7248f4162 HTTP/1.1" 200 None
+2022-09-22 10:50:44,594 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:50:44,597 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:50:45,054 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:50:45,110 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:50:45,527 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:50:45,529 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:50:45,902 INFO :: Binance conexão aberta
+2022-09-22 10:50:46,221 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:50:46,593 INFO :: Bitmex conexão aberta
+2022-09-22 10:50:49,545 INFO :: Binance conexão aberta
+2022-09-22 10:50:49,863 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:50:53,077 INFO :: Binance conexão aberta
+2022-09-22 10:50:53,378 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:50:56,623 INFO :: Binance conexão aberta
+2022-09-22 10:50:56,931 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:51:00,310 INFO :: Binance conexão aberta
+2022-09-22 10:51:00,653 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:51:03,889 INFO :: Binance conexão aberta
+2022-09-22 10:51:04,190 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:56:30,133 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:56:31,154 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:56:31,165 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:56:31,616 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:56:31,618 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:56:32,530 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663854989117&signature=09f28131815c7e24176b8aaa63591221a3f1a0756814cc79a48bee83c5504903 HTTP/1.1" 200 None
+2022-09-22 10:56:32,533 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:56:32,535 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:56:32,976 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:56:33,030 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:56:33,960 INFO :: Binance conexão aberta
+2022-09-22 10:56:34,043 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:56:34,046 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:56:34,299 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:56:35,117 INFO :: Bitmex conexão aberta
+2022-09-22 10:56:37,533 INFO :: Binance conexão aberta
+2022-09-22 10:56:37,829 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:56:41,040 INFO :: Binance conexão aberta
+2022-09-22 10:56:41,337 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:56:44,713 INFO :: Binance conexão aberta
+2022-09-22 10:56:45,056 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:59:43,065 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:59:44,083 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 10:59:44,092 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 10:59:44,538 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 10:59:44,542 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 10:59:45,671 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663855182029&signature=98038effede42cad9712bc90554ae789cda9f20ea5ae1ea740e91e0ba7bd996e HTTP/1.1" 200 None
+2022-09-22 10:59:45,685 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 10:59:45,687 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:59:46,146 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 10:59:46,217 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 10:59:46,630 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 10:59:46,632 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 10:59:47,009 INFO :: Binance conexão aberta
+2022-09-22 10:59:47,322 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:59:47,690 INFO :: Bitmex conexão aberta
+2022-09-22 10:59:50,701 INFO :: Binance conexão aberta
+2022-09-22 10:59:51,048 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:59:54,248 INFO :: Binance conexão aberta
+2022-09-22 10:59:54,544 WARNING :: Binance Websocket conexão fechada
+2022-09-22 10:59:57,940 INFO :: Binance conexão aberta
+2022-09-22 10:59:58,285 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:00:01,666 INFO :: Binance conexão aberta
+2022-09-22 11:00:02,007 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:01:27,357 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 11:01:28,346 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 11:01:28,351 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 11:01:28,951 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 11:01:28,954 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 11:01:29,940 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663855286274&signature=efa0b5922399663edf067f88e63ea703f449ccb908e1b76b1fc9ff51443c61d2 HTTP/1.1" 200 None
+2022-09-22 11:01:29,944 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 11:01:29,945 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 11:01:30,387 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 11:01:30,443 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 11:01:31,195 INFO :: Binance conexão aberta
+2022-09-22 11:01:31,438 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 11:01:31,440 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 11:01:31,500 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:01:32,548 INFO :: Bitmex conexão aberta
+2022-09-22 11:01:34,853 INFO :: Binance conexão aberta
+2022-09-22 11:01:35,187 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:01:38,566 INFO :: Binance conexão aberta
+2022-09-22 11:01:38,912 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:01:42,179 INFO :: Binance conexão aberta
+2022-09-22 11:01:42,489 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:02:16,263 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 11:02:17,610 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 11:02:17,631 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 11:02:18,177 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 11:02:18,181 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 11:02:19,258 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663855335516&signature=1bcb9553d39414d7f89269c14e0a8ab0f9ebbd78f4375feceda81d6822cbe404 HTTP/1.1" 200 None
+2022-09-22 11:02:19,261 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 11:02:19,263 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 11:02:19,694 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 11:02:19,913 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 11:02:20,474 INFO :: Binance conexão aberta
+2022-09-22 11:02:20,775 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:02:20,909 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 11:02:21,097 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 11:02:22,162 INFO :: Bitmex conexão aberta
+2022-09-22 11:02:24,171 INFO :: Binance conexão aberta
+2022-09-22 11:02:24,490 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:02:27,729 INFO :: Binance conexão aberta
+2022-09-22 11:02:28,029 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:02:31,404 INFO :: Binance conexão aberta
+2022-09-22 11:02:31,733 WARNING :: Binance Websocket conexão fechada
+2022-09-22 11:02:34,965 INFO :: Binance conexão aberta
+2022-09-22 11:02:35,272 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:08,215 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:11:09,301 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:11:09,307 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:11:09,742 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:11:09,746 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:11:10,784 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863069585&signature=dada8f9ec2f8bd3a9fce04098e5a60f2723d0ff0ea427db83b25dd48e331e5cf HTTP/1.1" 200 None
+2022-09-22 13:11:10,788 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:11:10,791 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:11:11,286 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:11:11,338 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:11:11,748 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:11:11,754 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:11:12,093 INFO :: Binance conexão aberta
+2022-09-22 13:11:12,386 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:13,204 INFO :: Bitmex conexão aberta
+2022-09-22 13:11:15,561 INFO :: Binance conexão aberta
+2022-09-22 13:11:15,857 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:19,089 INFO :: Binance conexão aberta
+2022-09-22 13:11:19,393 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:22,604 INFO :: Binance conexão aberta
+2022-09-22 13:11:22,903 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:26,121 INFO :: Binance conexão aberta
+2022-09-22 13:11:26,418 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:11:29,683 INFO :: Binance conexão aberta
+2022-09-22 13:11:30,011 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:12:49,334 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:12:49,973 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:12:49,981 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:12:50,419 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:12:50,426 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:12:51,400 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863170257&signature=6d8d171f2132464265f46751c6791aeb080aa778715bfc537a81ac054e408378 HTTP/1.1" 200 None
+2022-09-22 13:12:51,407 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:12:51,409 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:12:51,886 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:12:51,963 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:12:52,357 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:12:52,362 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:12:52,753 INFO :: Binance conexão aberta
+2022-09-22 13:12:53,056 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:12:53,761 INFO :: Bitmex conexão aberta
+2022-09-22 13:12:56,288 INFO :: Binance conexão aberta
+2022-09-22 13:12:56,596 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:12:59,869 INFO :: Binance conexão aberta
+2022-09-22 13:13:00,184 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:03,477 INFO :: Binance conexão aberta
+2022-09-22 13:13:03,793 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:19,341 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:13:20,345 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:13:20,352 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:13:20,743 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:13:20,745 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:13:21,758 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863200578&signature=26da41f9634d46b19ca80258889a17e01c015251c5932b56176ec0dac0b2f3c4 HTTP/1.1" 200 None
+2022-09-22 13:13:21,769 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:13:21,773 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:13:22,188 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:13:22,257 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:13:22,688 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:13:22,696 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:13:23,105 INFO :: Binance conexão aberta
+2022-09-22 13:13:23,415 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:23,797 INFO :: Bitmex conexão aberta
+2022-09-22 13:13:26,858 INFO :: Binance conexão aberta
+2022-09-22 13:13:27,175 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:30,579 INFO :: Binance conexão aberta
+2022-09-22 13:13:30,923 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:34,202 INFO :: Binance conexão aberta
+2022-09-22 13:13:34,518 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:37,765 INFO :: Binance conexão aberta
+2022-09-22 13:13:38,075 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:41,284 INFO :: Binance conexão aberta
+2022-09-22 13:13:41,587 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:44,824 INFO :: Binance conexão aberta
+2022-09-22 13:13:45,124 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:48,454 INFO :: Binance conexão aberta
+2022-09-22 13:13:48,774 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:52,256 INFO :: Binance conexão aberta
+2022-09-22 13:13:52,623 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:56,093 INFO :: Binance conexão aberta
+2022-09-22 13:13:56,433 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:13:59,751 INFO :: Binance conexão aberta
+2022-09-22 13:14:00,079 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:03,329 INFO :: Binance conexão aberta
+2022-09-22 13:14:03,638 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:06,920 INFO :: Binance conexão aberta
+2022-09-22 13:14:07,239 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:10,490 INFO :: Binance conexão aberta
+2022-09-22 13:14:10,796 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:14,067 INFO :: Binance conexão aberta
+2022-09-22 13:14:14,379 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:17,627 INFO :: Binance conexão aberta
+2022-09-22 13:14:17,931 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:21,249 INFO :: Binance conexão aberta
+2022-09-22 13:14:21,577 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:24,971 INFO :: Binance conexão aberta
+2022-09-22 13:14:25,314 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:28,637 INFO :: Binance conexão aberta
+2022-09-22 13:14:28,961 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:32,250 INFO :: Binance conexão aberta
+2022-09-22 13:14:32,564 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:35,831 INFO :: Binance conexão aberta
+2022-09-22 13:14:36,145 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:39,499 INFO :: Binance conexão aberta
+2022-09-22 13:14:39,834 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:43,194 INFO :: Binance conexão aberta
+2022-09-22 13:14:43,534 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:46,900 INFO :: Binance conexão aberta
+2022-09-22 13:14:47,238 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:50,662 INFO :: Binance conexão aberta
+2022-09-22 13:14:51,008 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:54,208 INFO :: Binance conexão aberta
+2022-09-22 13:14:54,509 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:14:57,731 INFO :: Binance conexão aberta
+2022-09-22 13:14:58,024 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:01,268 INFO :: Binance conexão aberta
+2022-09-22 13:15:01,577 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:04,992 INFO :: Binance conexão aberta
+2022-09-22 13:15:05,344 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:08,770 INFO :: Binance conexão aberta
+2022-09-22 13:15:09,129 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:12,443 INFO :: Binance conexão aberta
+2022-09-22 13:15:12,764 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:15,990 INFO :: Binance conexão aberta
+2022-09-22 13:15:16,292 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:19,546 INFO :: Binance conexão aberta
+2022-09-22 13:15:19,855 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:23,156 INFO :: Binance conexão aberta
+2022-09-22 13:15:23,471 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:25,691 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:15:26,737 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:15:26,746 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:15:27,967 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:15:27,973 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:15:29,050 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863327794&signature=ecc74ed2149c9bfb99c44865e58e3c3329fd871a2761a36ffe81e4323392cfe6 HTTP/1.1" 200 None
+2022-09-22 13:15:29,056 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:15:29,060 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:15:29,487 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:15:29,559 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:15:29,951 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:15:29,953 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:15:30,394 INFO :: Binance conexão aberta
+2022-09-22 13:15:30,723 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:31,028 INFO :: Bitmex conexão aberta
+2022-09-22 13:15:34,007 INFO :: Binance conexão aberta
+2022-09-22 13:15:34,375 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:37,648 INFO :: Binance conexão aberta
+2022-09-22 13:15:37,955 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:41,241 INFO :: Binance conexão aberta
+2022-09-22 13:15:41,561 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:44,762 INFO :: Binance conexão aberta
+2022-09-22 13:15:45,062 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:48,468 INFO :: Binance conexão aberta
+2022-09-22 13:15:48,815 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:52,170 INFO :: Binance conexão aberta
+2022-09-22 13:15:52,499 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:55,862 INFO :: Binance conexão aberta
+2022-09-22 13:15:56,200 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:15:59,603 INFO :: Binance conexão aberta
+2022-09-22 13:15:59,928 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:03,161 INFO :: Binance conexão aberta
+2022-09-22 13:16:03,467 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:06,673 INFO :: Binance conexão aberta
+2022-09-22 13:16:06,973 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:10,201 INFO :: Binance conexão aberta
+2022-09-22 13:16:10,504 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:13,831 INFO :: Binance conexão aberta
+2022-09-22 13:16:14,155 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:17,357 INFO :: Binance conexão aberta
+2022-09-22 13:16:17,659 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:20,910 INFO :: Binance conexão aberta
+2022-09-22 13:16:21,224 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:24,559 INFO :: Binance conexão aberta
+2022-09-22 13:16:24,893 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:28,153 INFO :: Binance conexão aberta
+2022-09-22 13:16:28,458 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:31,802 INFO :: Binance conexão aberta
+2022-09-22 13:16:32,138 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:35,397 INFO :: Binance conexão aberta
+2022-09-22 13:16:35,707 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:39,109 INFO :: Binance conexão aberta
+2022-09-22 13:16:39,460 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:42,775 INFO :: Binance conexão aberta
+2022-09-22 13:16:43,101 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:46,349 INFO :: Binance conexão aberta
+2022-09-22 13:16:46,655 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:49,967 INFO :: Binance conexão aberta
+2022-09-22 13:16:50,289 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:53,604 INFO :: Binance conexão aberta
+2022-09-22 13:16:53,921 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:16:58,404 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:16:59,581 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:16:59,589 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:17:00,051 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:17:00,054 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:17:01,129 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863419874&signature=de3b6402551f1cf1c497fae62f5aa3a4cee0680f4fe77fe13dad146e9eadf850 HTTP/1.1" 200 None
+2022-09-22 13:17:01,138 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:17:01,142 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:17:01,611 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:17:01,687 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:17:02,506 INFO :: Binance conexão aberta
+2022-09-22 13:17:02,658 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:17:02,666 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:17:02,837 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:03,761 INFO :: Bitmex conexão aberta
+2022-09-22 13:17:06,189 INFO :: Binance conexão aberta
+2022-09-22 13:17:06,533 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:09,823 INFO :: Binance conexão aberta
+2022-09-22 13:17:10,142 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:13,366 INFO :: Binance conexão aberta
+2022-09-22 13:17:13,670 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:16,985 INFO :: Binance conexão aberta
+2022-09-22 13:17:17,313 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:20,554 INFO :: Binance conexão aberta
+2022-09-22 13:17:20,859 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:24,176 INFO :: Binance conexão aberta
+2022-09-22 13:17:24,500 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:27,819 INFO :: Binance conexão aberta
+2022-09-22 13:17:28,143 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:31,445 INFO :: Binance conexão aberta
+2022-09-22 13:17:31,767 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:35,006 INFO :: Binance conexão aberta
+2022-09-22 13:17:35,316 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:38,578 INFO :: Binance conexão aberta
+2022-09-22 13:17:38,889 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:42,199 INFO :: Binance conexão aberta
+2022-09-22 13:17:42,528 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:45,748 INFO :: Binance conexão aberta
+2022-09-22 13:17:46,047 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:49,440 INFO :: Binance conexão aberta
+2022-09-22 13:17:49,786 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:53,022 INFO :: Binance conexão aberta
+2022-09-22 13:17:53,332 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:17:56,567 INFO :: Binance conexão aberta
+2022-09-22 13:17:56,879 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:00,261 INFO :: Binance conexão aberta
+2022-09-22 13:18:00,608 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:03,927 INFO :: Binance conexão aberta
+2022-09-22 13:18:04,233 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:07,500 INFO :: Binance conexão aberta
+2022-09-22 13:18:07,815 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:11,077 INFO :: Binance conexão aberta
+2022-09-22 13:18:11,382 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:14,625 INFO :: Binance conexão aberta
+2022-09-22 13:18:14,933 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:18,225 INFO :: Binance conexão aberta
+2022-09-22 13:18:18,545 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:21,922 INFO :: Binance conexão aberta
+2022-09-22 13:18:22,263 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:25,659 INFO :: Binance conexão aberta
+2022-09-22 13:18:26,014 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:29,244 INFO :: Binance conexão aberta
+2022-09-22 13:18:29,546 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:32,771 INFO :: Binance conexão aberta
+2022-09-22 13:18:33,077 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:36,377 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:18:37,685 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:18:37,694 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:18:38,155 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:18:38,161 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:18:39,141 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863517972&signature=ea465e0935afae5cd7903428877b61bb2aa5ca4d5c96889c3b7e74332a5fed53 HTTP/1.1" 200 None
+2022-09-22 13:18:39,157 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:18:39,162 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:18:39,703 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:18:39,726 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:18:40,447 INFO :: Binance conexão aberta
+2022-09-22 13:18:40,722 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:18:40,726 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:18:40,827 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:42,164 INFO :: Bitmex conexão aberta
+2022-09-22 13:18:44,081 INFO :: Binance conexão aberta
+2022-09-22 13:18:44,425 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:47,684 INFO :: Binance conexão aberta
+2022-09-22 13:18:47,994 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:18:51,383 INFO :: Binance conexão aberta
+2022-09-22 13:18:51,729 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:19:30,512 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:19:31,531 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:19:31,539 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:19:31,929 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:19:31,936 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:19:32,924 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863571746&signature=a9532921f94afe6c81b4f723700d107f106c6fa9bbd6ad6900dfdbb415672417 HTTP/1.1" 200 None
+2022-09-22 13:19:32,935 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:19:32,939 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:19:33,426 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:19:33,491 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:19:33,925 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:19:33,933 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:19:34,373 INFO :: Binance conexão aberta
+2022-09-22 13:19:34,710 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:19:35,051 INFO :: Bitmex conexão aberta
+2022-09-22 13:19:38,150 INFO :: Binance conexão aberta
+2022-09-22 13:19:38,509 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:20:23,696 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:20:24,748 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:20:24,770 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:20:25,230 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:20:25,236 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:20:26,588 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863625043&signature=81483a9112963475f8857c51c885888ac5fa5ba65a6ec3c2837183bbef4b2602 HTTP/1.1" 200 None
+2022-09-22 13:20:26,599 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:20:26,606 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:20:27,017 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:20:27,065 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:20:27,529 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:20:27,534 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:20:27,839 INFO :: Binance conexão aberta
+2022-09-22 13:20:28,148 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:20:28,674 INFO :: Bitmex conexão aberta
+2022-09-22 13:20:31,404 INFO :: Binance conexão aberta
+2022-09-22 13:20:31,718 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:20:35,016 INFO :: Binance conexão aberta
+2022-09-22 13:20:35,320 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:21:17,440 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:21:18,477 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:21:18,482 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:21:18,874 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:21:18,880 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:21:19,871 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863678683&signature=2c251ae184ccd186865bc9ff57289e1b46bde94117040e4d66de590b351a2cd8 HTTP/1.1" 200 None
+2022-09-22 13:21:19,883 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:21:19,887 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:21:20,327 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:21:20,719 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:21:21,103 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:21:21,107 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:21:21,215 INFO :: Binance conexão aberta
+2022-09-22 13:21:21,532 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:21:22,227 INFO :: Bitmex conexão aberta
+2022-09-22 13:21:24,865 INFO :: Binance conexão aberta
+2022-09-22 13:21:25,187 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:21:28,570 INFO :: Binance conexão aberta
+2022-09-22 13:21:28,907 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:22:07,790 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:22:08,840 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:22:08,859 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:22:09,318 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:22:09,324 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:22:10,339 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663863729124&signature=f313a96bb69ca39ada6235b22432c9aae26f7e3dd99d2b7a8bb102be1edfb403 HTTP/1.1" 200 None
+2022-09-22 13:22:10,345 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:22:10,347 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:22:10,760 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:22:11,112 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:22:11,543 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:22:11,551 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:22:11,675 INFO :: Binance conexão aberta
+2022-09-22 13:22:11,981 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:22:12,683 INFO :: Bitmex conexão aberta
+2022-09-22 13:22:15,335 INFO :: Binance conexão aberta
+2022-09-22 13:22:15,675 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:42:27,274 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:42:28,490 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:42:28,498 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:42:29,769 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:42:29,771 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:42:30,775 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663864949506&signature=81bb7b46912c79ea1c97f5f3303b8ce5e3fdebd2e7c0586670706f823069c239 HTTP/1.1" 200 None
+2022-09-22 13:42:30,778 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:42:30,780 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:42:32,037 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:42:32,057 INFO :: Binance conexão aberta
+2022-09-22 13:42:32,357 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:42:32,655 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:42:33,057 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:42:33,063 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:42:34,174 INFO :: Bitmex conexão aberta
+2022-09-22 13:42:35,578 INFO :: Binance conexão aberta
+2022-09-22 13:42:35,881 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:42:39,116 INFO :: Binance conexão aberta
+2022-09-22 13:42:39,419 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:42:42,594 INFO :: Binance conexão aberta
+2022-09-22 13:42:42,885 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:42:46,170 INFO :: Binance conexão aberta
+2022-09-22 13:42:46,492 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:43:45,177 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:43:46,229 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:43:46,249 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:43:46,694 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:43:46,699 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:43:47,784 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865026425&signature=01e56249aaa7c1fe705f385d679a36a1cce47addd3a564fb46d9d3d5f9415de7 HTTP/1.1" 200 None
+2022-09-22 13:43:47,791 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:43:47,793 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:43:48,269 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:43:48,508 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:43:48,919 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:43:48,924 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:43:49,115 INFO :: Binance conexão aberta
+2022-09-22 13:43:49,433 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:43:50,018 INFO :: Bitmex conexão aberta
+2022-09-22 13:43:52,687 INFO :: Binance conexão aberta
+2022-09-22 13:43:52,993 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:43:56,316 INFO :: Binance conexão aberta
+2022-09-22 13:43:56,647 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:43:59,874 INFO :: Binance conexão aberta
+2022-09-22 13:44:00,177 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:44:03,432 INFO :: Binance conexão aberta
+2022-09-22 13:44:03,742 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:44:07,162 INFO :: Binance conexão aberta
+2022-09-22 13:44:07,517 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:44:10,790 INFO :: Binance conexão aberta
+2022-09-22 13:44:11,103 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:44:14,352 INFO :: Binance conexão aberta
+2022-09-22 13:44:14,660 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:44:17,891 INFO :: Binance conexão aberta
+2022-09-22 13:44:18,190 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:53:06,923 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:53:07,988 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:53:07,988 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:53:08,419 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:53:08,434 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:53:08,891 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865587743&signature=0b87546f64ef7692ab4ae969439a6042d4930cf3676be92e5a8ad5660ecac608 HTTP/1.1" 200 None
+2022-09-22 13:53:08,907 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:53:08,915 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:53:09,381 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:53:09,413 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:53:09,803 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:53:09,803 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:53:10,465 INFO :: Binance conexão aberta
+2022-09-22 13:53:10,825 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:53:11,097 INFO :: Bitmex conexão aberta
+2022-09-22 13:53:14,056 INFO :: Binance conexão aberta
+2022-09-22 13:53:14,362 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:53:55,062 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:53:56,100 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:53:56,100 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:53:56,503 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:53:56,511 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:53:56,993 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865635814&signature=4a80427e1cc08af3990606de3b822a92325c9fad880aa83223603b93d718c7d8 HTTP/1.1" 200 None
+2022-09-22 13:53:56,997 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:53:56,999 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:53:57,382 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:53:57,442 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:53:57,844 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:53:57,846 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:53:58,277 INFO :: Binance conexão aberta
+2022-09-22 13:53:58,596 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:53:58,928 INFO :: Bitmex conexão aberta
+2022-09-22 13:54:01,982 INFO :: Binance conexão aberta
+2022-09-22 13:54:02,383 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:54:05,683 INFO :: Binance conexão aberta
+2022-09-22 13:54:05,996 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:54:09,241 INFO :: Binance conexão aberta
+2022-09-22 13:54:09,545 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:54:12,885 INFO :: Binance conexão aberta
+2022-09-22 13:54:13,220 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:56:01,869 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:56:02,947 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:56:02,953 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:56:03,382 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:56:03,382 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:56:03,855 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865762694&signature=d5ee981b3fb929767968fb88b0d3eb8f40251753556bfb49e7fa555341fa47c5 HTTP/1.1" 200 None
+2022-09-22 13:56:03,855 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:56:03,865 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:56:04,307 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:56:04,366 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:56:04,778 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:56:04,781 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:56:05,306 INFO :: Binance conexão aberta
+2022-09-22 13:56:05,660 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:56:05,857 INFO :: Bitmex conexão aberta
+2022-09-22 13:56:46,370 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:56:47,346 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:56:47,346 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:56:47,750 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:56:47,755 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:56:48,735 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865807051&signature=0e6ff7bead485d9cf26805a70308b6db0682dc8fe4e2ef250d77cab7ac51040a HTTP/1.1" 200 None
+2022-09-22 13:56:48,737 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:56:48,738 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:56:49,146 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:56:49,177 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:56:49,552 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:56:49,552 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:56:50,186 INFO :: Binance conexão aberta
+2022-09-22 13:56:50,496 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:56:50,837 INFO :: Bitmex conexão aberta
+2022-09-22 13:56:53,715 INFO :: Binance conexão aberta
+2022-09-22 13:56:54,012 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:56:57,268 INFO :: Binance conexão aberta
+2022-09-22 13:56:57,578 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:00,974 INFO :: Binance conexão aberta
+2022-09-22 13:57:01,325 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:04,627 INFO :: Binance conexão aberta
+2022-09-22 13:57:04,942 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:08,152 INFO :: Binance conexão aberta
+2022-09-22 13:57:08,448 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:11,727 INFO :: Binance conexão aberta
+2022-09-22 13:57:12,043 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:15,364 INFO :: Binance conexão aberta
+2022-09-22 13:57:15,692 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:18,887 INFO :: Binance conexão aberta
+2022-09-22 13:57:19,178 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:57:22,461 INFO :: Binance conexão aberta
+2022-09-22 13:57:22,769 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:28,108 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:58:29,174 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 13:58:29,181 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 13:58:30,382 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 13:58:30,382 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 13:58:31,541 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663865909679&signature=89a371dedd8d2154f5e1e6172f5f3f565f23bed92d772ee4cf46804eb512ab0e HTTP/1.1" 200 None
+2022-09-22 13:58:31,541 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 13:58:31,557 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:58:32,023 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 13:58:32,077 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 13:58:32,479 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 13:58:32,479 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 13:58:32,909 INFO :: Binance conexão aberta
+2022-09-22 13:58:33,214 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:33,603 INFO :: Bitmex conexão aberta
+2022-09-22 13:58:36,487 INFO :: Binance conexão aberta
+2022-09-22 13:58:36,812 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:40,143 INFO :: Binance conexão aberta
+2022-09-22 13:58:40,475 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:43,770 INFO :: Binance conexão aberta
+2022-09-22 13:58:44,093 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:47,321 INFO :: Binance conexão aberta
+2022-09-22 13:58:47,627 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:51,050 INFO :: Binance conexão aberta
+2022-09-22 13:58:51,398 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:54,646 INFO :: Binance conexão aberta
+2022-09-22 13:58:54,954 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:58:58,160 INFO :: Binance conexão aberta
+2022-09-22 13:58:58,457 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:01,842 INFO :: Binance conexão aberta
+2022-09-22 13:59:02,183 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:05,485 INFO :: Binance conexão aberta
+2022-09-22 13:59:05,808 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:09,124 INFO :: Binance conexão aberta
+2022-09-22 13:59:09,453 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:12,872 INFO :: Binance conexão aberta
+2022-09-22 13:59:13,220 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:16,541 INFO :: Binance conexão aberta
+2022-09-22 13:59:16,856 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:20,173 INFO :: Binance conexão aberta
+2022-09-22 13:59:20,497 WARNING :: Binance Websocket conexão fechada
+2022-09-22 13:59:23,757 INFO :: Binance conexão aberta
+2022-09-22 13:59:24,074 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:01:53,843 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:01:54,873 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:01:54,889 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:01:55,359 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:01:55,359 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:01:56,442 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663866114644&signature=a352a9121311e7ebe435efb01f82dae5c9a6047e6f454cc695d9af7fe0fddabd HTTP/1.1" 200 None
+2022-09-22 14:01:56,442 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:01:56,450 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:01:56,897 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:01:56,906 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:01:57,288 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:01:57,288 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:01:57,709 INFO :: Binance conexão aberta
+2022-09-22 14:01:58,010 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:01:58,521 INFO :: Bitmex conexão aberta
+2022-09-22 14:02:01,473 INFO :: Binance conexão aberta
+2022-09-22 14:02:01,839 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:02:05,210 INFO :: Binance conexão aberta
+2022-09-22 14:02:05,568 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:02:09,005 INFO :: Binance conexão aberta
+2022-09-22 14:02:09,359 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:15,332 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:07:16,417 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:07:16,439 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:07:16,880 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:07:16,890 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:07:17,883 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663866436145&signature=88b16d0038472c97df119381c85ed9d1d16153919b8f4c2fc0989a38d217edad HTTP/1.1" 200 None
+2022-09-22 14:07:17,887 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:07:17,890 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:07:19,164 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:07:19,223 INFO :: Binance conexão aberta
+2022-09-22 14:07:19,544 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:19,762 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:07:20,208 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:07:20,214 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:07:21,297 INFO :: Bitmex conexão aberta
+2022-09-22 14:07:22,785 INFO :: Binance conexão aberta
+2022-09-22 14:07:23,083 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:26,372 INFO :: Binance conexão aberta
+2022-09-22 14:07:26,693 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:29,980 INFO :: Binance conexão aberta
+2022-09-22 14:07:30,300 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:33,590 INFO :: Binance conexão aberta
+2022-09-22 14:07:33,911 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:37,296 INFO :: Binance conexão aberta
+2022-09-22 14:07:37,630 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:40,834 INFO :: Binance conexão aberta
+2022-09-22 14:07:41,130 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:44,375 INFO :: Binance conexão aberta
+2022-09-22 14:07:44,678 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:07:48,082 INFO :: Binance conexão aberta
+2022-09-22 14:07:48,431 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:20,800 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:16:22,024 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:16:22,030 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:16:22,481 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:16:22,489 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:16:23,471 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663866981713&signature=5ddfe21c5ba637a9ac4563b85a8f91caeb17d186c860a3dc2138c4962bb43079 HTTP/1.1" 200 None
+2022-09-22 14:16:23,475 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:16:23,477 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:16:23,923 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:16:23,998 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:16:24,386 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:16:24,391 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:16:24,813 INFO :: Binance conexão aberta
+2022-09-22 14:16:25,138 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:25,472 INFO :: Bitmex conexão aberta
+2022-09-22 14:16:28,567 INFO :: Binance conexão aberta
+2022-09-22 14:16:28,889 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:32,152 INFO :: Binance conexão aberta
+2022-09-22 14:16:32,466 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:35,722 INFO :: Binance conexão aberta
+2022-09-22 14:16:36,030 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:39,271 INFO :: Binance conexão aberta
+2022-09-22 14:16:39,573 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:42,793 INFO :: Binance conexão aberta
+2022-09-22 14:16:43,096 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:46,351 INFO :: Binance conexão aberta
+2022-09-22 14:16:46,665 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:49,895 INFO :: Binance conexão aberta
+2022-09-22 14:16:50,199 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:16:53,412 INFO :: Binance conexão aberta
+2022-09-22 14:16:53,717 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:15,036 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:21:16,220 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:21:16,230 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:21:16,687 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:21:16,698 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:21:17,709 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867275904&signature=89cd5a1a99991f14c5125c2aa61bf0e20042380a5589be6cea84462a484911d7 HTTP/1.1" 200 None
+2022-09-22 14:21:17,723 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:21:17,726 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:21:18,169 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:21:18,235 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:21:18,684 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:21:18,687 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:21:18,985 INFO :: Binance conexão aberta
+2022-09-22 14:21:19,289 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:19,754 INFO :: Bitmex conexão aberta
+2022-09-22 14:21:22,655 INFO :: Binance conexão aberta
+2022-09-22 14:21:22,959 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:26,311 INFO :: Binance conexão aberta
+2022-09-22 14:21:26,647 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:29,873 INFO :: Binance conexão aberta
+2022-09-22 14:21:30,176 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:33,470 INFO :: Binance conexão aberta
+2022-09-22 14:21:33,786 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:37,093 INFO :: Binance conexão aberta
+2022-09-22 14:21:37,408 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:21:40,609 INFO :: Binance conexão aberta
+2022-09-22 14:21:40,912 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:15,651 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:23:16,702 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:23:16,724 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:23:17,183 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:23:17,185 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:23:18,162 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867396393&signature=bb7af367d07c7842b92c04af93291b30f4919e64be8a1db72c83e62fa502dd87 HTTP/1.1" 200 None
+2022-09-22 14:23:18,166 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:23:18,168 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:23:18,656 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:23:18,700 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:23:19,091 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:23:19,100 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:23:19,501 INFO :: Binance conexão aberta
+2022-09-22 14:23:19,801 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:20,167 INFO :: Bitmex conexão aberta
+2022-09-22 14:23:23,042 INFO :: Binance conexão aberta
+2022-09-22 14:23:23,344 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:26,523 INFO :: Binance conexão aberta
+2022-09-22 14:23:26,818 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:30,152 INFO :: Binance conexão aberta
+2022-09-22 14:23:30,477 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:33,818 INFO :: Binance conexão aberta
+2022-09-22 14:23:34,151 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:37,375 INFO :: Binance conexão aberta
+2022-09-22 14:23:37,677 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:23:40,882 INFO :: Binance conexão aberta
+2022-09-22 14:23:41,181 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:01,073 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:24:02,078 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:24:02,099 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:24:02,504 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:24:02,515 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:24:03,514 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867441711&signature=ae454abdf000d6980d0707032832ba18a41b37a275b33b769616ee3f5f0efaef HTTP/1.1" 200 None
+2022-09-22 14:24:03,521 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:24:03,523 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:24:03,929 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:24:03,967 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:24:04,345 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:24:04,348 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:24:04,871 INFO :: Binance conexão aberta
+2022-09-22 14:24:05,198 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:05,455 INFO :: Bitmex conexão aberta
+2022-09-22 14:24:08,541 INFO :: Binance conexão aberta
+2022-09-22 14:24:08,851 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:12,128 INFO :: Binance conexão aberta
+2022-09-22 14:24:12,442 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:15,835 INFO :: Binance conexão aberta
+2022-09-22 14:24:16,181 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:38,760 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:24:39,798 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:24:39,806 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:24:40,260 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:24:40,271 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:24:41,316 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867479466&signature=3cd888aff664c854a778787bea3e5eca380f464c145e5d751b20f46a69975d35 HTTP/1.1" 200 None
+2022-09-22 14:24:41,329 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:24:41,333 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:24:42,109 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:24:42,488 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:24:42,629 INFO :: Binance conexão aberta
+2022-09-22 14:24:42,929 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:24:42,935 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:24:43,029 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:43,994 INFO :: Bitmex conexão aberta
+2022-09-22 14:24:46,369 INFO :: Binance conexão aberta
+2022-09-22 14:24:46,697 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:50,140 INFO :: Binance conexão aberta
+2022-09-22 14:24:50,488 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:53,728 INFO :: Binance conexão aberta
+2022-09-22 14:24:54,036 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:24:57,245 INFO :: Binance conexão aberta
+2022-09-22 14:24:57,547 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:25:00,786 INFO :: Binance conexão aberta
+2022-09-22 14:25:01,089 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:25:04,388 INFO :: Binance conexão aberta
+2022-09-22 14:25:04,709 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:25:08,064 INFO :: Binance conexão aberta
+2022-09-22 14:25:08,397 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:22,091 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:28:23,163 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:28:23,175 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:28:23,616 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:28:23,627 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:28:24,623 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867702808&signature=daa434be215deb62581da3abba9a4cab7f885716573cef1654784fe619cabab8 HTTP/1.1" 200 None
+2022-09-22 14:28:24,628 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:28:24,631 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:28:25,103 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:28:25,180 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:28:25,609 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:28:25,618 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:28:26,123 INFO :: Binance conexão aberta
+2022-09-22 14:28:26,472 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:26,818 INFO :: Bitmex conexão aberta
+2022-09-22 14:28:30,262 INFO :: Binance conexão aberta
+2022-09-22 14:28:30,639 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:33,934 INFO :: Binance conexão aberta
+2022-09-22 14:28:34,246 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:37,542 INFO :: Binance conexão aberta
+2022-09-22 14:28:37,870 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:41,160 INFO :: Binance conexão aberta
+2022-09-22 14:28:41,476 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:44,735 INFO :: Binance conexão aberta
+2022-09-22 14:28:45,042 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:28:48,306 INFO :: Binance conexão aberta
+2022-09-22 14:28:48,609 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:31:56,877 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:31:57,921 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:31:57,929 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:31:58,377 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:31:58,380 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:31:59,378 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867917555&signature=eec2956b8bd01c638444ad9172e7358dc20b875aac5bdcf0af854cc3240ff730 HTTP/1.1" 200 None
+2022-09-22 14:31:59,383 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:31:59,385 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:31:59,843 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:31:59,902 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:32:00,791 INFO :: Binance conexão aberta
+2022-09-22 14:32:00,945 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:32:00,955 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:32:01,133 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:32:02,072 INFO :: Bitmex conexão aberta
+2022-09-22 14:32:04,368 INFO :: Binance conexão aberta
+2022-09-22 14:32:04,680 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:32:07,982 INFO :: Binance conexão aberta
+2022-09-22 14:32:08,307 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:32:11,737 INFO :: Binance conexão aberta
+2022-09-22 14:32:12,081 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:32:52,028 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:32:53,112 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:32:53,128 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:32:53,518 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:32:53,529 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:32:54,534 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663867972694&signature=99804f0b5633a7c9a80411d714b06c1b14691b140f435c0237b1f48462cd2554 HTTP/1.1" 200 None
+2022-09-22 14:32:54,540 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:32:54,542 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:32:54,951 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:32:55,007 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:32:55,428 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:32:55,434 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:32:55,839 INFO :: Binance conexão aberta
+2022-09-22 14:32:56,140 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:32:56,574 INFO :: Bitmex conexão aberta
+2022-09-22 14:32:59,424 INFO :: Binance conexão aberta
+2022-09-22 14:32:59,739 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:33:03,026 INFO :: Binance conexão aberta
+2022-09-22 14:33:03,343 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:33:06,641 INFO :: Binance conexão aberta
+2022-09-22 14:33:06,958 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:33:10,224 INFO :: Binance conexão aberta
+2022-09-22 14:33:10,536 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:33:13,895 INFO :: Binance conexão aberta
+2022-09-22 14:33:14,228 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:36,983 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:35:38,040 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:35:38,061 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:35:38,512 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:35:38,514 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:35:38,990 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663868137680&signature=39c2aa8fd31018896ef518179aa3ebabb8610439666256c7e2f45ba04b4fe170 HTTP/1.1" 200 None
+2022-09-22 14:35:39,002 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:35:39,009 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:35:39,498 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:35:39,553 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:35:39,943 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:35:39,945 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:35:40,397 INFO :: Binance conexão aberta
+2022-09-22 14:35:40,727 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:41,073 INFO :: Bitmex conexão aberta
+2022-09-22 14:35:44,123 INFO :: Binance conexão aberta
+2022-09-22 14:35:44,465 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:47,686 INFO :: Binance conexão aberta
+2022-09-22 14:35:47,985 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:51,268 INFO :: Binance conexão aberta
+2022-09-22 14:35:51,596 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:54,814 INFO :: Binance conexão aberta
+2022-09-22 14:35:55,111 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:35:58,439 INFO :: Binance conexão aberta
+2022-09-22 14:35:58,767 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:36:02,063 INFO :: Binance conexão aberta
+2022-09-22 14:36:02,375 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:36:05,640 INFO :: Binance conexão aberta
+2022-09-22 14:36:05,952 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:36:09,217 INFO :: Binance conexão aberta
+2022-09-22 14:36:09,545 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:17,040 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:37:18,095 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:37:18,104 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:37:18,542 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:37:18,553 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:37:19,548 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663868237704&signature=49dfdf01cee2c2cb098e36bbe3710a7d8d2f86bf232168b8f67dd1217680ff84 HTTP/1.1" 200 None
+2022-09-22 14:37:19,555 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:37:19,557 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:37:20,016 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:37:20,092 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:37:20,477 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:37:20,485 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:37:20,975 INFO :: Binance conexão aberta
+2022-09-22 14:37:21,318 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:21,604 INFO :: Bitmex conexão aberta
+2022-09-22 14:37:24,584 INFO :: Binance conexão aberta
+2022-09-22 14:37:24,929 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:28,363 INFO :: Binance conexão aberta
+2022-09-22 14:37:28,710 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:31,939 INFO :: Binance conexão aberta
+2022-09-22 14:37:32,251 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:35,547 INFO :: Binance conexão aberta
+2022-09-22 14:37:35,860 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:39,281 INFO :: Binance conexão aberta
+2022-09-22 14:37:39,640 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:42,905 INFO :: Binance conexão aberta
+2022-09-22 14:37:43,217 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:46,467 INFO :: Binance conexão aberta
+2022-09-22 14:37:46,795 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:50,013 INFO :: Binance conexão aberta
+2022-09-22 14:37:50,309 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:53,621 INFO :: Binance conexão aberta
+2022-09-22 14:37:53,949 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:37:57,261 INFO :: Binance conexão aberta
+2022-09-22 14:37:57,589 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:38:00,838 INFO :: Binance conexão aberta
+2022-09-22 14:38:01,151 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:38:04,478 INFO :: Binance conexão aberta
+2022-09-22 14:38:04,790 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:38:08,211 INFO :: Binance conexão aberta
+2022-09-22 14:38:08,555 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:38:11,851 INFO :: Binance conexão aberta
+2022-09-22 14:38:12,164 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:12,073 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:42:13,192 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:42:13,198 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:42:13,656 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:42:13,659 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:42:14,626 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663868532801&signature=e86446786b6499fd8cfa6745130e733de99fc408d46fac10cb68d931efd4abd5 HTTP/1.1" 200 None
+2022-09-22 14:42:14,632 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:42:14,633 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:42:15,108 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:42:15,168 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:42:15,562 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:42:15,567 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:42:15,958 INFO :: Binance conexão aberta
+2022-09-22 14:42:16,259 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:16,682 INFO :: Bitmex conexão aberta
+2022-09-22 14:42:19,545 INFO :: Binance conexão aberta
+2022-09-22 14:42:19,864 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:23,105 INFO :: Binance conexão aberta
+2022-09-22 14:42:23,406 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:26,626 INFO :: Binance conexão aberta
+2022-09-22 14:42:26,939 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:30,219 INFO :: Binance conexão aberta
+2022-09-22 14:42:30,532 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:33,874 INFO :: Binance conexão aberta
+2022-09-22 14:42:34,187 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:37,530 INFO :: Binance conexão aberta
+2022-09-22 14:42:37,874 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:41,154 INFO :: Binance conexão aberta
+2022-09-22 14:42:41,451 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:44,679 INFO :: Binance conexão aberta
+2022-09-22 14:42:44,976 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:42:48,194 INFO :: Binance conexão aberta
+2022-09-22 14:42:48,496 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:43:43,701 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:43:44,843 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:43:44,857 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:43:45,300 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:43:45,303 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:43:46,282 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663868624440&signature=c89c4738302cdc7b4a071bc5f70f22cf47d6f8ca8e32a3bcc97c3496c67f4255 HTTP/1.1" 200 None
+2022-09-22 14:43:46,285 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:43:46,286 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:43:46,735 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:43:46,790 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:43:47,239 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:43:47,243 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:43:47,740 INFO :: Binance conexão aberta
+2022-09-22 14:43:48,090 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:43:48,391 INFO :: Bitmex conexão aberta
+2022-09-22 14:43:51,461 INFO :: Binance conexão aberta
+2022-09-22 14:43:51,789 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:43:54,998 INFO :: Binance conexão aberta
+2022-09-22 14:43:55,297 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:43:58,518 INFO :: Binance conexão aberta
+2022-09-22 14:43:58,831 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:44:02,033 INFO :: Binance conexão aberta
+2022-09-22 14:44:02,330 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:44:05,673 INFO :: Binance conexão aberta
+2022-09-22 14:44:06,001 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:44:09,391 INFO :: Binance conexão aberta
+2022-09-22 14:44:09,734 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:44:13,140 INFO :: Binance conexão aberta
+2022-09-22 14:44:13,483 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:56:20,623 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:56:21,725 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:56:21,731 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:56:22,169 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:56:22,172 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:56:23,193 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663869381262&signature=adc61c6fd1e28726918ca93101ed11d332044e980a363c960dbf7498eab1e192 HTTP/1.1" 200 None
+2022-09-22 14:56:23,200 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:56:23,202 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:56:23,685 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:56:23,740 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:56:24,465 INFO :: Binance conexão aberta
+2022-09-22 14:56:24,774 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:56:24,860 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:56:24,865 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:56:25,954 INFO :: Bitmex conexão aberta
+2022-09-22 14:56:28,062 INFO :: Binance conexão aberta
+2022-09-22 14:56:28,382 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:56:31,786 INFO :: Binance conexão aberta
+2022-09-22 14:56:32,134 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:56:35,364 INFO :: Binance conexão aberta
+2022-09-22 14:56:35,677 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:56:39,005 INFO :: Binance conexão aberta
+2022-09-22 14:56:39,338 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:59:41,956 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:59:42,998 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-09-22 14:59:43,005 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-09-22 14:59:43,443 DEBUG :: https://api.binance.com:443 "GET /api/v1/time HTTP/1.1" 200 28
+2022-09-22 14:59:43,454 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-09-22 14:59:44,026 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1663869582528&signature=898e9b42aae1e72d07ec5137f38e63a939094c9716fa09f024dda456c9258787 HTTP/1.1" 200 None
+2022-09-22 14:59:44,030 INFO :: Binance Futures Client Iniciado com sucesso
+2022-09-22 14:59:44,032 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:59:44,475 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-09-22 14:59:44,531 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-09-22 14:59:44,946 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-09-22 14:59:44,954 INFO :: Bitmex Client Iniciado com sucesso
+2022-09-22 14:59:45,394 INFO :: Binance conexão aberta
+2022-09-22 14:59:46,185 INFO :: Bitmex conexão aberta
+2022-09-22 14:59:46,333 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:59:49,750 INFO :: Binance conexão aberta
+2022-09-22 14:59:50,152 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:59:53,653 INFO :: Binance conexão aberta
+2022-09-22 14:59:54,006 WARNING :: Binance Websocket conexão fechada
+2022-09-22 14:59:57,258 INFO :: Binance conexão aberta
+2022-09-22 14:59:57,555 WARNING :: Binance Websocket conexão fechada
+2022-09-22 15:00:00,804 INFO :: Binance conexão aberta
+2022-09-22 15:00:01,117 WARNING :: Binance Websocket conexão fechada
+2022-09-22 15:00:04,554 INFO :: Binance conexão aberta
+2022-09-22 15:00:04,897 WARNING :: Binance Websocket conexão fechada
+2022-09-22 15:00:08,115 INFO :: Binance conexão aberta
+2022-09-22 15:00:08,412 WARNING :: Binance Websocket conexão fechada
+2022-09-22 15:00:11,630 INFO :: Binance conexão aberta
+2022-09-22 15:00:11,927 WARNING :: Binance Websocket conexão fechada
+2022-09-22 15:00:15,262 INFO :: Binance conexão aberta
+2022-09-22 15:00:15,582 WARNING :: Binance Websocket conexão fechada
